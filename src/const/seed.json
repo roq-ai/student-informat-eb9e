@@ -1,0 +1,2572 @@
+[
+  {
+    "term": [
+      {
+        "id": "c8dc518e-b098-43d7-b309-6447e5500c01",
+        "name": "Fall 2021",
+        "start_date": "2023-09-09T14:33:57.340Z",
+        "end_date": "2023-09-09T06:28:13.882Z",
+        "is_active": false,
+        "created_at": "2023-09-09T12:33:09.453Z",
+        "updated_at": "2023-09-09T05:41:23.561Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "a2c36f26-9413-4e83-93fd-2d01137f3d5c",
+        "name": "Spring 2022",
+        "start_date": "2023-09-09T15:03:29.194Z",
+        "end_date": "2023-09-09T17:45:41.887Z",
+        "is_active": true,
+        "created_at": "2023-09-10T02:11:35.199Z",
+        "updated_at": "2023-09-09T18:25:48.539Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "13b8c8f6-0cee-4bdd-91e7-28be5ac43f28",
+        "name": "Summer 2022",
+        "start_date": "2023-09-09T08:37:40.779Z",
+        "end_date": "2023-09-09T17:15:12.808Z",
+        "is_active": false,
+        "created_at": "2023-09-09T16:45:51.298Z",
+        "updated_at": "2023-09-09T09:20:16.831Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "6df7ae5c-ccc4-4992-8367-e11e156294c6",
+        "name": "Winter 2022",
+        "start_date": "2023-09-09T18:25:12.817Z",
+        "end_date": "2023-09-09T21:36:26.048Z",
+        "is_active": true,
+        "created_at": "2023-09-09T06:55:00.053Z",
+        "updated_at": "2023-09-09T22:26:45.879Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "283097de-b932-44c4-afff-f2b9747b8630",
+        "name": "Autumn 2022",
+        "start_date": "2023-09-09T20:39:34.732Z",
+        "end_date": "2023-09-09T19:42:58.731Z",
+        "is_active": true,
+        "created_at": "2023-09-09T21:35:34.876Z",
+        "updated_at": "2023-09-09T19:27:57.702Z",
+        "university_id": "main_entity_pk"
+      }
+    ],
+    "faculty": [
+      {
+        "id": "93f1679e-c68c-40a7-be71-c4700f1c0501",
+        "name": "Faculty of Arts",
+        "department": "Department of Psychology",
+        "designation": "Professor",
+        "created_at": "2023-09-09T18:55:53.025Z",
+        "updated_at": "2023-09-10T01:32:21.245Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d598322a-6a2d-45c5-b0a9-adf79eaf9c85",
+        "name": "Faculty of Science",
+        "department": "Department of Computer Science",
+        "designation": "Associate Professor",
+        "created_at": "2023-09-10T02:12:04.316Z",
+        "updated_at": "2023-09-09T06:16:25.010Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a9abbe65-c951-4c3a-a391-46b5f37d9969",
+        "name": "Faculty of Engineering",
+        "department": "Department of Civil Engineering",
+        "designation": "Assistant Professor",
+        "created_at": "2023-09-09T14:18:28.361Z",
+        "updated_at": "2023-09-09T13:45:18.343Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "723fac3d-b92c-4692-bc43-afbf2dae573f",
+        "name": "Faculty of Business",
+        "department": "Department of Marketing",
+        "designation": "Lecturer",
+        "created_at": "2023-09-09T20:22:34.498Z",
+        "updated_at": "2023-09-09T23:04:07.701Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "360d250e-7b4c-4ba5-aad1-d7984cacb6c7",
+        "name": "Faculty of Medicine",
+        "department": "Department of Biology",
+        "designation": "Researcher",
+        "created_at": "2023-09-09T22:18:28.264Z",
+        "updated_at": "2023-09-09T10:04:00.737Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "course": [
+      {
+        "id": "e6e9a779-fc2c-4e44-a051-2137263c3c80",
+        "name": "Introduction to Economics",
+        "description": "This course provides an introduction to the principles of economics.",
+        "start_date": "2023-09-09T10:21:12.161Z",
+        "end_date": "2023-09-09T09:48:22.583Z",
+        "created_at": "2023-09-09T21:24:32.350Z",
+        "updated_at": "2023-09-10T04:30:34.419Z",
+        "faculty_id": "93f1679e-c68c-40a7-be71-c4700f1c0501",
+        "term_id": "a2c36f26-9413-4e83-93fd-2d01137f3d5c"
+      },
+      {
+        "id": "86eee8bb-f847-4eaa-90f2-0a06e21429bf",
+        "name": "Computer Programming 101",
+        "description": "Learn the fundamentals of computer programming using Python.",
+        "start_date": "2023-09-09T05:57:44.127Z",
+        "end_date": "2023-09-10T02:03:41.829Z",
+        "created_at": "2023-09-10T01:43:33.344Z",
+        "updated_at": "2023-09-09T08:15:42.105Z",
+        "faculty_id": "360d250e-7b4c-4ba5-aad1-d7984cacb6c7",
+        "term_id": "c8dc518e-b098-43d7-b309-6447e5500c01"
+      },
+      {
+        "id": "2a5910de-5111-4bef-b917-1a80642a9f90",
+        "name": "Advanced Calculus",
+        "description": "Explore advanced concepts in calculus and its applications.",
+        "start_date": "2023-09-10T04:20:33.067Z",
+        "end_date": "2023-09-09T14:50:29.943Z",
+        "created_at": "2023-09-09T22:01:48.109Z",
+        "updated_at": "2023-09-09T16:59:50.658Z",
+        "faculty_id": "93f1679e-c68c-40a7-be71-c4700f1c0501",
+        "term_id": "c8dc518e-b098-43d7-b309-6447e5500c01"
+      },
+      {
+        "id": "80507a12-5cde-46d9-8081-2b9f34ebe4cd",
+        "name": "Marketing Strategies",
+        "description": "Develop effective marketing strategies for business success.",
+        "start_date": "2023-09-09T16:11:08.952Z",
+        "end_date": "2023-09-09T16:00:59.494Z",
+        "created_at": "2023-09-10T03:26:14.601Z",
+        "updated_at": "2023-09-09T13:43:29.526Z",
+        "faculty_id": "d598322a-6a2d-45c5-b0a9-adf79eaf9c85",
+        "term_id": "283097de-b932-44c4-afff-f2b9747b8630"
+      },
+      {
+        "id": "1f760091-980c-495c-b531-29d45e158096",
+        "name": "Biology of Cells",
+        "description": "Study the structure and function of cells in biology.",
+        "start_date": "2023-09-09T16:56:15.332Z",
+        "end_date": "2023-09-09T18:30:20.906Z",
+        "created_at": "2023-09-10T00:07:03.129Z",
+        "updated_at": "2023-09-09T15:35:54.235Z",
+        "faculty_id": "93f1679e-c68c-40a7-be71-c4700f1c0501",
+        "term_id": "c8dc518e-b098-43d7-b309-6447e5500c01"
+      }
+    ],
+    "student": [
+      {
+        "id": "e479b1a1-efd7-44db-a550-bcc8b435a198",
+        "name": "John Smith",
+        "admission_date": "2023-09-09T23:38:24.587Z",
+        "created_at": "2023-09-09T12:52:23.243Z",
+        "updated_at": "2023-09-09T11:09:23.878Z",
+        "course_id": "80507a12-5cde-46d9-8081-2b9f34ebe4cd",
+        "term_id": "a2c36f26-9413-4e83-93fd-2d01137f3d5c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ede6d2b-15ff-4ed0-b797-22dd8b56c147",
+        "name": "Emily Johnson",
+        "admission_date": "2023-09-09T19:46:19.233Z",
+        "created_at": "2023-09-09T23:05:11.226Z",
+        "updated_at": "2023-09-09T19:39:42.970Z",
+        "course_id": "e6e9a779-fc2c-4e44-a051-2137263c3c80",
+        "term_id": "c8dc518e-b098-43d7-b309-6447e5500c01",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ea2529f7-defc-4b43-becb-f307c367ca89",
+        "name": "Michael Brown",
+        "admission_date": "2023-09-09T23:29:00.151Z",
+        "created_at": "2023-09-09T15:36:24.032Z",
+        "updated_at": "2023-09-09T23:07:14.048Z",
+        "course_id": "1f760091-980c-495c-b531-29d45e158096",
+        "term_id": "283097de-b932-44c4-afff-f2b9747b8630",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2424c772-4d67-4c63-af8c-449aab08a9be",
+        "name": "Sophia Davis",
+        "admission_date": "2023-09-10T04:20:34.847Z",
+        "created_at": "2023-09-10T04:31:58.262Z",
+        "updated_at": "2023-09-10T01:54:38.073Z",
+        "course_id": "86eee8bb-f847-4eaa-90f2-0a06e21429bf",
+        "term_id": "13b8c8f6-0cee-4bdd-91e7-28be5ac43f28",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7b8b5f4f-6acb-4397-8953-dd25c3b4bdd7",
+        "name": "Daniel Wilson",
+        "admission_date": "2023-09-10T04:56:59.239Z",
+        "created_at": "2023-09-10T01:09:22.849Z",
+        "updated_at": "2023-09-09T06:59:13.220Z",
+        "course_id": "e6e9a779-fc2c-4e44-a051-2137263c3c80",
+        "term_id": "c8dc518e-b098-43d7-b309-6447e5500c01",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "512f853f-ae0d-4bf2-8d16-bc35df5ddba5",
+        "email": "Webster_Altenwerth@yahoo.com",
+        "firstName": "Helene",
+        "lastName": "Kovacek",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52494271",
+        "tenantId": null
+      },
+      {
+        "reference": "ce868765-fe4e-4a30-8fcc-7f3a66166344",
+        "email": "Berenice20@hotmail.com",
+        "firstName": "Niko",
+        "lastName": "Maggio",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39320104",
+        "tenantId": null
+      },
+      {
+        "reference": "645d876d-c6e7-4d56-8b4f-e99f5bbf8666",
+        "email": "Amari61@hotmail.com",
+        "firstName": "Justine",
+        "lastName": "Kub",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59354014",
+        "tenantId": null
+      },
+      {
+        "reference": "24d73054-640d-4f30-a2ab-874a6e251d7d",
+        "email": "Queen_Lubowitz19@yahoo.com",
+        "firstName": "Dakota",
+        "lastName": "Carter",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57603934",
+        "tenantId": null
+      },
+      {
+        "reference": "336394f6-2060-45b6-8c0d-b4b863720f89",
+        "email": "Conor_Okuneva30@hotmail.com",
+        "firstName": "Kaylah",
+        "lastName": "Collier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62018807",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "term": [
+      {
+        "id": "e24a4761-6423-4624-a164-625420f6b2be",
+        "name": "Fall 2021",
+        "start_date": "2023-09-09T19:18:15.111Z",
+        "end_date": "2023-09-09T06:43:35.685Z",
+        "is_active": false,
+        "created_at": "2023-09-10T05:15:28.560Z",
+        "updated_at": "2023-09-10T03:45:45.425Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "5dd2ab8d-4c4d-4aaa-adf9-dc1b667a007f",
+        "name": "Spring 2022",
+        "start_date": "2023-09-09T13:33:03.548Z",
+        "end_date": "2023-09-10T00:41:57.790Z",
+        "is_active": true,
+        "created_at": "2023-09-10T04:02:02.755Z",
+        "updated_at": "2023-09-10T02:00:27.834Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "4c7a62b4-fb05-4bf4-b025-93ec4de1d5df",
+        "name": "Summer 2022",
+        "start_date": "2023-09-09T22:41:27.921Z",
+        "end_date": "2023-09-09T21:28:39.287Z",
+        "is_active": true,
+        "created_at": "2023-09-09T07:46:31.203Z",
+        "updated_at": "2023-09-09T17:48:09.048Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "89114b27-963f-4f12-b94e-208801cc727b",
+        "name": "Winter 2022",
+        "start_date": "2023-09-09T08:54:57.954Z",
+        "end_date": "2023-09-09T13:38:56.160Z",
+        "is_active": true,
+        "created_at": "2023-09-09T06:27:16.503Z",
+        "updated_at": "2023-09-09T08:14:08.863Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "06d5bd5a-3287-40d0-8beb-e0b04263fd4c",
+        "name": "Autumn 2021",
+        "start_date": "2023-09-09T19:00:22.110Z",
+        "end_date": "2023-09-09T20:37:36.547Z",
+        "is_active": true,
+        "created_at": "2023-09-09T13:58:47.582Z",
+        "updated_at": "2023-09-09T21:21:31.187Z",
+        "university_id": "main_entity_pk"
+      }
+    ],
+    "faculty": [
+      {
+        "id": "035e1655-3d4a-4fea-8939-2a2b2eadd6c7",
+        "name": "John Smith",
+        "department": "Computer Science",
+        "designation": "Professor",
+        "created_at": "2023-09-09T07:09:25.616Z",
+        "updated_at": "2023-09-09T08:10:59.912Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "244650e0-04f7-4a2e-b2fc-c9e9d94f18bc",
+        "name": "Jane Doe",
+        "department": "Business Administration",
+        "designation": "Associate Professor",
+        "created_at": "2023-09-10T01:15:53.516Z",
+        "updated_at": "2023-09-09T14:38:32.629Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c406879-afd4-4ab6-8bb1-5b73a7e54048",
+        "name": "Michael Brown",
+        "department": "Engineering",
+        "designation": "Assistant Professor",
+        "created_at": "2023-09-09T19:31:24.353Z",
+        "updated_at": "2023-09-10T05:18:39.495Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2d8f045f-9734-4ece-ae4f-513146065209",
+        "name": "Sarah Jones",
+        "department": "Psychology",
+        "designation": "Lecturer",
+        "created_at": "2023-09-09T16:26:28.935Z",
+        "updated_at": "2023-09-09T16:51:04.835Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fcd91745-5827-472c-a9a3-2b99f4bb3a35",
+        "name": "David Wilson",
+        "department": "Biology",
+        "designation": "Researcher",
+        "created_at": "2023-09-09T22:02:33.816Z",
+        "updated_at": "2023-09-09T18:01:09.640Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "course": [
+      {
+        "id": "f64c04a3-a9a5-43fc-9bfa-e25f816b2ada",
+        "name": "Introduction to Programming",
+        "description": "Learn the basics of programming with hands-on exercises",
+        "start_date": "2023-09-09T11:24:21.703Z",
+        "end_date": "2023-09-09T10:18:05.800Z",
+        "created_at": "2023-09-10T03:51:22.730Z",
+        "updated_at": "2023-09-09T22:10:03.609Z",
+        "faculty_id": "1c406879-afd4-4ab6-8bb1-5b73a7e54048",
+        "term_id": "5dd2ab8d-4c4d-4aaa-adf9-dc1b667a007f"
+      },
+      {
+        "id": "17dfb874-145f-46f8-bffd-ead8e611f01d",
+        "name": "Marketing Strategies",
+        "description": "Explore effective marketing strategies for businesses",
+        "start_date": "2023-09-09T16:08:30.564Z",
+        "end_date": "2023-09-10T04:01:41.059Z",
+        "created_at": "2023-09-10T00:07:21.872Z",
+        "updated_at": "2023-09-09T21:47:57.656Z",
+        "faculty_id": "2d8f045f-9734-4ece-ae4f-513146065209",
+        "term_id": "89114b27-963f-4f12-b94e-208801cc727b"
+      },
+      {
+        "id": "e95a1600-e964-4f0e-b97f-64fe35e547f1",
+        "name": "Mechanical Engineering",
+        "description": "Study the principles of mechanical engineering and design",
+        "start_date": "2023-09-09T16:57:53.016Z",
+        "end_date": "2023-09-10T04:26:36.840Z",
+        "created_at": "2023-09-09T19:27:07.392Z",
+        "updated_at": "2023-09-09T16:50:29.596Z",
+        "faculty_id": "2d8f045f-9734-4ece-ae4f-513146065209",
+        "term_id": "06d5bd5a-3287-40d0-8beb-e0b04263fd4c"
+      },
+      {
+        "id": "84e0dcbe-c9fe-4f0f-8ec3-04e08d9430bc",
+        "name": "Cognitive Psychology",
+        "description": "Understand the human mind and behavior through psychological theories",
+        "start_date": "2023-09-09T23:09:12.894Z",
+        "end_date": "2023-09-09T21:52:19.790Z",
+        "created_at": "2023-09-09T22:48:39.367Z",
+        "updated_at": "2023-09-09T20:57:14.808Z",
+        "faculty_id": "2d8f045f-9734-4ece-ae4f-513146065209",
+        "term_id": "4c7a62b4-fb05-4bf4-b025-93ec4de1d5df"
+      },
+      {
+        "id": "467ff087-89ab-49f9-b3be-30e4763ff2c9",
+        "name": "Cell Biology",
+        "description": "Explore the world of cells and their functions in living organisms",
+        "start_date": "2023-09-09T13:49:11.319Z",
+        "end_date": "2023-09-09T08:39:53.188Z",
+        "created_at": "2023-09-10T05:10:35.837Z",
+        "updated_at": "2023-09-09T23:50:04.492Z",
+        "faculty_id": "2d8f045f-9734-4ece-ae4f-513146065209",
+        "term_id": "06d5bd5a-3287-40d0-8beb-e0b04263fd4c"
+      }
+    ],
+    "student": [
+      {
+        "id": "e8beea1b-efc3-4904-b4eb-1afac9899eee",
+        "name": "John Doe",
+        "admission_date": "2023-09-10T02:59:36.378Z",
+        "created_at": "2023-09-09T19:30:58.712Z",
+        "updated_at": "2023-09-09T13:54:49.407Z",
+        "course_id": "467ff087-89ab-49f9-b3be-30e4763ff2c9",
+        "term_id": "4c7a62b4-fb05-4bf4-b025-93ec4de1d5df",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e26e8777-a375-4921-894f-becad01bd05b",
+        "name": "Jane Smith",
+        "admission_date": "2023-09-09T09:27:26.055Z",
+        "created_at": "2023-09-09T08:09:05.095Z",
+        "updated_at": "2023-09-10T05:37:10.341Z",
+        "course_id": "f64c04a3-a9a5-43fc-9bfa-e25f816b2ada",
+        "term_id": "89114b27-963f-4f12-b94e-208801cc727b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c52d99da-dd9c-476e-87b8-fb8886885fb9",
+        "name": "Michael Brown",
+        "admission_date": "2023-09-09T20:33:00.708Z",
+        "created_at": "2023-09-09T08:30:49.213Z",
+        "updated_at": "2023-09-09T16:08:48.753Z",
+        "course_id": "e95a1600-e964-4f0e-b97f-64fe35e547f1",
+        "term_id": "5dd2ab8d-4c4d-4aaa-adf9-dc1b667a007f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7bf73fb4-d42e-4da5-981d-da572cd3072d",
+        "name": "Sarah Jones",
+        "admission_date": "2023-09-10T03:43:18.054Z",
+        "created_at": "2023-09-09T20:38:04.537Z",
+        "updated_at": "2023-09-09T05:56:29.542Z",
+        "course_id": "e95a1600-e964-4f0e-b97f-64fe35e547f1",
+        "term_id": "06d5bd5a-3287-40d0-8beb-e0b04263fd4c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b3563f52-50b4-437e-ad8b-10aa06ed1646",
+        "name": "David Wilson",
+        "admission_date": "2023-09-09T06:58:42.000Z",
+        "created_at": "2023-09-09T06:57:19.265Z",
+        "updated_at": "2023-09-09T22:16:22.458Z",
+        "course_id": "f64c04a3-a9a5-43fc-9bfa-e25f816b2ada",
+        "term_id": "06d5bd5a-3287-40d0-8beb-e0b04263fd4c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f840ea57-604c-454b-9822-55db95c7153b",
+        "email": "Vella36@hotmail.com",
+        "firstName": "Dante",
+        "lastName": "Morar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/103.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "36fadfaa-be90-4e87-ab36-ca5fdb8be6b9",
+        "email": "Jeffry58@hotmail.com",
+        "firstName": "Dejah",
+        "lastName": "Abshire",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73355309",
+        "tenantId": null
+      },
+      {
+        "reference": "f7ebf1db-f847-443d-b48a-944c98b4047c",
+        "email": "Colby76@gmail.com",
+        "firstName": "Jayson",
+        "lastName": "Muller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58357393",
+        "tenantId": null
+      },
+      {
+        "reference": "34d50f39-61c2-4daf-837a-c23a9db1860a",
+        "email": "Phoebe7@gmail.com",
+        "firstName": "Carmel",
+        "lastName": "Hartmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1176.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "94676983-270a-43c9-833b-34d75a002b1d",
+        "email": "Jimmy_Bauch@yahoo.com",
+        "firstName": "Estel",
+        "lastName": "Turcotte",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1137.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "term": [
+      {
+        "id": "0c9b8722-e219-4699-b3e1-387febc37a97",
+        "name": "Fall 2021",
+        "start_date": "2023-09-09T09:41:50.697Z",
+        "end_date": "2023-09-10T03:57:20.282Z",
+        "is_active": false,
+        "created_at": "2023-09-09T21:06:37.133Z",
+        "updated_at": "2023-09-10T05:18:27.679Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "eb30c25d-de32-4091-b9bc-4162aaa2ec31",
+        "name": "Spring 2022",
+        "start_date": "2023-09-09T07:55:51.036Z",
+        "end_date": "2023-09-09T17:51:57.287Z",
+        "is_active": true,
+        "created_at": "2023-09-09T08:35:11.171Z",
+        "updated_at": "2023-09-09T11:51:01.613Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "f319c17f-6f3d-4ff5-b353-f90ee2a54fc2",
+        "name": "Summer 2022",
+        "start_date": "2023-09-09T18:44:36.074Z",
+        "end_date": "2023-09-09T12:00:57.031Z",
+        "is_active": true,
+        "created_at": "2023-09-10T03:19:27.088Z",
+        "updated_at": "2023-09-09T10:51:52.457Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "0b1a9e71-9fbc-45da-aee9-312decb531ab",
+        "name": "Winter 2022",
+        "start_date": "2023-09-09T10:31:04.735Z",
+        "end_date": "2023-09-10T05:30:17.555Z",
+        "is_active": false,
+        "created_at": "2023-09-09T19:48:36.864Z",
+        "updated_at": "2023-09-09T20:56:51.998Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "d0dbda59-e68a-4a24-83b5-7336292f9abf",
+        "name": "Autumn 2021",
+        "start_date": "2023-09-09T16:46:41.672Z",
+        "end_date": "2023-09-09T13:03:21.817Z",
+        "is_active": false,
+        "created_at": "2023-09-10T01:57:33.579Z",
+        "updated_at": "2023-09-09T15:25:46.196Z",
+        "university_id": "main_entity_pk"
+      }
+    ],
+    "faculty": [
+      {
+        "id": "80610a1e-1ff7-4678-bb88-c372af79aaf5",
+        "name": "Faculty of Arts",
+        "department": "Department of History",
+        "designation": "Professor",
+        "created_at": "2023-09-09T22:23:25.857Z",
+        "updated_at": "2023-09-09T23:33:24.317Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35474cdf-fd35-465c-af35-e5ffd12269c0",
+        "name": "Faculty of Science",
+        "department": "Department of Biology",
+        "designation": "Associate Professor",
+        "created_at": "2023-09-09T21:27:32.320Z",
+        "updated_at": "2023-09-09T09:00:19.619Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f24c94b4-b663-40f2-8a71-9a0f9963b9a8",
+        "name": "Faculty of Engineering",
+        "department": "Department of Computer Science",
+        "designation": "Assistant Professor",
+        "created_at": "2023-09-09T23:55:46.854Z",
+        "updated_at": "2023-09-10T04:49:02.641Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e9d27955-7341-40bf-bfb7-35c7e1ce28aa",
+        "name": "Faculty of Business",
+        "department": "Department of Economics",
+        "designation": "Lecturer",
+        "created_at": "2023-09-09T13:09:19.208Z",
+        "updated_at": "2023-09-09T12:35:32.976Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "60aa5fb2-da19-4a1a-a330-e6a33bae5fc5",
+        "name": "Faculty of Medicine",
+        "department": "Department of Psychology",
+        "designation": "Researcher",
+        "created_at": "2023-09-10T01:43:16.494Z",
+        "updated_at": "2023-09-09T09:02:39.588Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "course": [
+      {
+        "id": "1371837b-69ab-4bda-8ddf-8df19ca64bcf",
+        "name": "Introduction to Psychology",
+        "description": "This course provides an overview of the fundamental principles of psychology",
+        "start_date": "2023-09-10T04:19:49.499Z",
+        "end_date": "2023-09-09T12:22:42.455Z",
+        "created_at": "2023-09-09T05:47:18.535Z",
+        "updated_at": "2023-09-09T13:15:35.697Z",
+        "faculty_id": "80610a1e-1ff7-4678-bb88-c372af79aaf5",
+        "term_id": "0b1a9e71-9fbc-45da-aee9-312decb531ab"
+      },
+      {
+        "id": "33aad698-100d-4c65-9654-2cdc9061115b",
+        "name": "Computer Programming 101",
+        "description": "Learn the basics of computer programming using popular programming languages",
+        "start_date": "2023-09-09T10:54:12.806Z",
+        "end_date": "2023-09-10T04:59:22.602Z",
+        "created_at": "2023-09-09T09:24:53.751Z",
+        "updated_at": "2023-09-09T13:36:08.734Z",
+        "faculty_id": "f24c94b4-b663-40f2-8a71-9a0f9963b9a8",
+        "term_id": "eb30c25d-de32-4091-b9bc-4162aaa2ec31"
+      },
+      {
+        "id": "823b5ecc-3614-4c5a-bf1e-73db6a82ff62",
+        "name": "Financial Accounting",
+        "description": "Explore the principles and practices of financial accounting",
+        "start_date": "2023-09-09T22:14:39.940Z",
+        "end_date": "2023-09-09T12:58:59.236Z",
+        "created_at": "2023-09-09T17:28:17.359Z",
+        "updated_at": "2023-09-10T03:13:45.817Z",
+        "faculty_id": "f24c94b4-b663-40f2-8a71-9a0f9963b9a8",
+        "term_id": "d0dbda59-e68a-4a24-83b5-7336292f9abf"
+      },
+      {
+        "id": "6bf744d1-4fb7-4bc0-971a-24ded3efafdd",
+        "name": "Artificial Intelligence",
+        "description": "Discover the concepts and applications of artificial intelligence",
+        "start_date": "2023-09-09T08:49:53.725Z",
+        "end_date": "2023-09-09T11:49:31.245Z",
+        "created_at": "2023-09-09T06:31:56.664Z",
+        "updated_at": "2023-09-09T11:34:48.675Z",
+        "faculty_id": "35474cdf-fd35-465c-af35-e5ffd12269c0",
+        "term_id": "0b1a9e71-9fbc-45da-aee9-312decb531ab"
+      },
+      {
+        "id": "e07a0181-d028-4983-bff8-8b39817ee7ab",
+        "name": "Marketing Strategies",
+        "description": "Develop an understanding of effective marketing strategies",
+        "start_date": "2023-09-09T09:31:38.917Z",
+        "end_date": "2023-09-10T00:55:09.849Z",
+        "created_at": "2023-09-09T21:49:15.930Z",
+        "updated_at": "2023-09-09T09:52:09.345Z",
+        "faculty_id": "80610a1e-1ff7-4678-bb88-c372af79aaf5",
+        "term_id": "0b1a9e71-9fbc-45da-aee9-312decb531ab"
+      }
+    ],
+    "student": [
+      {
+        "id": "513c751d-c788-47f5-968a-fe67e73192d6",
+        "name": "John Doe",
+        "admission_date": "2023-09-09T21:01:43.754Z",
+        "created_at": "2023-09-09T21:21:36.708Z",
+        "updated_at": "2023-09-09T08:59:06.177Z",
+        "course_id": "1371837b-69ab-4bda-8ddf-8df19ca64bcf",
+        "term_id": "0c9b8722-e219-4699-b3e1-387febc37a97",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "98d997e6-9aad-4aff-bdad-cb34cd4e610f",
+        "name": "Jane Smith",
+        "admission_date": "2023-09-09T08:20:50.973Z",
+        "created_at": "2023-09-10T04:29:49.183Z",
+        "updated_at": "2023-09-09T20:32:50.012Z",
+        "course_id": "6bf744d1-4fb7-4bc0-971a-24ded3efafdd",
+        "term_id": "0c9b8722-e219-4699-b3e1-387febc37a97",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "07276cfd-1433-4e67-8fe6-3aad610ce6a8",
+        "name": "Michael Brown",
+        "admission_date": "2023-09-09T06:43:31.796Z",
+        "created_at": "2023-09-09T10:00:15.728Z",
+        "updated_at": "2023-09-10T03:06:57.892Z",
+        "course_id": "1371837b-69ab-4bda-8ddf-8df19ca64bcf",
+        "term_id": "eb30c25d-de32-4091-b9bc-4162aaa2ec31",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "11fa3c3c-9a03-40ce-86ba-ea3b0fe64679",
+        "name": "Sarah Jones",
+        "admission_date": "2023-09-09T21:12:02.905Z",
+        "created_at": "2023-09-09T18:39:18.096Z",
+        "updated_at": "2023-09-10T02:27:48.023Z",
+        "course_id": "1371837b-69ab-4bda-8ddf-8df19ca64bcf",
+        "term_id": "eb30c25d-de32-4091-b9bc-4162aaa2ec31",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "64b2012a-aeba-46ca-8505-7fcd56e3dd5c",
+        "name": "David Wilson",
+        "admission_date": "2023-09-09T05:53:21.642Z",
+        "created_at": "2023-09-09T15:21:40.885Z",
+        "updated_at": "2023-09-10T02:12:47.165Z",
+        "course_id": "6bf744d1-4fb7-4bc0-971a-24ded3efafdd",
+        "term_id": "eb30c25d-de32-4091-b9bc-4162aaa2ec31",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "689c313d-28d5-4ad6-a988-16edba900455",
+        "email": "Nannie_Heller@gmail.com",
+        "firstName": "Ella",
+        "lastName": "Collier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76173000",
+        "tenantId": null
+      },
+      {
+        "reference": "1d5dfd33-e1e3-41de-846c-a70c2c3e58b7",
+        "email": "Juwan_Turner@gmail.com",
+        "firstName": "Rozella",
+        "lastName": "Reichel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69155650",
+        "tenantId": null
+      },
+      {
+        "reference": "50703362-9cd0-4217-9336-9d2821af0881",
+        "email": "Laurie.Hintz89@gmail.com",
+        "firstName": "Josh",
+        "lastName": "Pfannerstill",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/788.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a9d8f62b-1385-4860-95b1-77cc2c30c184",
+        "email": "Audie_Wyman@gmail.com",
+        "firstName": "Brice",
+        "lastName": "Heidenreich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/924.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1b162d59-3d60-46d7-8f72-3477e54a68de",
+        "email": "Toy39@hotmail.com",
+        "firstName": "Zoie",
+        "lastName": "Wintheiser",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1006.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "term": [
+      {
+        "id": "2f172f31-082c-4e0e-919b-508ea85494ef",
+        "name": "Fall 2021",
+        "start_date": "2023-09-09T06:15:50.395Z",
+        "end_date": "2023-09-09T16:17:10.462Z",
+        "is_active": true,
+        "created_at": "2023-09-09T08:45:36.105Z",
+        "updated_at": "2023-09-09T20:23:24.412Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "c4aa9368-bbeb-4558-a754-3004b716bb91",
+        "name": "Spring 2022",
+        "start_date": "2023-09-10T02:16:03.486Z",
+        "end_date": "2023-09-09T06:09:19.144Z",
+        "is_active": false,
+        "created_at": "2023-09-09T11:24:33.348Z",
+        "updated_at": "2023-09-10T05:20:00.110Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "02ef2521-64ee-42a2-ac90-39a2847e4696",
+        "name": "Summer 2022",
+        "start_date": "2023-09-09T21:53:45.783Z",
+        "end_date": "2023-09-09T18:20:48.749Z",
+        "is_active": false,
+        "created_at": "2023-09-09T21:15:39.244Z",
+        "updated_at": "2023-09-10T02:22:17.897Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "6d95b5b6-c2a5-4e4b-826d-a2614deb157e",
+        "name": "Winter 2022",
+        "start_date": "2023-09-09T12:39:07.313Z",
+        "end_date": "2023-09-09T16:10:50.590Z",
+        "is_active": false,
+        "created_at": "2023-09-09T07:51:36.339Z",
+        "updated_at": "2023-09-09T20:14:36.372Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "2961cf49-3f83-4817-a117-af660332c941",
+        "name": "Autumn 2021",
+        "start_date": "2023-09-10T00:17:10.685Z",
+        "end_date": "2023-09-09T20:15:11.805Z",
+        "is_active": true,
+        "created_at": "2023-09-10T05:01:57.456Z",
+        "updated_at": "2023-09-09T14:17:54.908Z",
+        "university_id": "main_entity_pk"
+      }
+    ],
+    "faculty": [
+      {
+        "id": "59cfc54e-e608-43b7-be5a-11b51c0e3e76",
+        "name": "Faculty of Arts",
+        "department": "Department of Psychology",
+        "designation": "Professor",
+        "created_at": "2023-09-09T16:25:16.857Z",
+        "updated_at": "2023-09-09T20:29:39.182Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d94702ca-4dc3-4617-9fdd-ce3937bde922",
+        "name": "Faculty of Science",
+        "department": "Department of Computer Science",
+        "designation": "Associate Professor",
+        "created_at": "2023-09-09T05:41:40.045Z",
+        "updated_at": "2023-09-09T15:29:46.380Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e4bc4d81-e689-420e-8f34-0cda49e704fa",
+        "name": "Faculty of Engineering",
+        "department": "Department of Civil Engineering",
+        "designation": "Assistant Professor",
+        "created_at": "2023-09-09T07:40:40.667Z",
+        "updated_at": "2023-09-09T18:59:02.691Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0fe7335a-61ab-41ad-bda8-99981735e02e",
+        "name": "Faculty of Business",
+        "department": "Department of Economics",
+        "designation": "Lecturer",
+        "created_at": "2023-09-09T06:29:04.809Z",
+        "updated_at": "2023-09-09T13:06:52.669Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "092f0af7-9a20-4a44-85f7-eb2c538a0278",
+        "name": "Faculty of Medicine",
+        "department": "Department of Biology",
+        "designation": "Researcher",
+        "created_at": "2023-09-09T22:51:42.551Z",
+        "updated_at": "2023-09-09T07:22:53.387Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "course": [
+      {
+        "id": "9fa820a5-df73-4003-8a2c-623af5cee4b6",
+        "name": "Introduction to Biology",
+        "description": "Explore the fundamental concepts of biology",
+        "start_date": "2023-09-09T17:26:24.950Z",
+        "end_date": "2023-09-10T00:25:51.138Z",
+        "created_at": "2023-09-09T12:07:03.393Z",
+        "updated_at": "2023-09-09T12:07:13.326Z",
+        "faculty_id": "d94702ca-4dc3-4617-9fdd-ce3937bde922",
+        "term_id": "2f172f31-082c-4e0e-919b-508ea85494ef"
+      },
+      {
+        "id": "b908e7f1-0a3b-41a3-98ff-79e24e771980",
+        "name": "Data Analysis and Visualization",
+        "description": "Learn data analysis techniques using popular tools",
+        "start_date": "2023-09-10T00:26:40.248Z",
+        "end_date": "2023-09-09T18:28:58.262Z",
+        "created_at": "2023-09-10T01:30:30.626Z",
+        "updated_at": "2023-09-09T07:13:38.051Z",
+        "faculty_id": "e4bc4d81-e689-420e-8f34-0cda49e704fa",
+        "term_id": "6d95b5b6-c2a5-4e4b-826d-a2614deb157e"
+      },
+      {
+        "id": "1d518bfd-7360-48c4-b525-d34e93f236bd",
+        "name": "Introduction to Psychology",
+        "description": "Gain insights into human behavior and cognition",
+        "start_date": "2023-09-09T18:18:50.928Z",
+        "end_date": "2023-09-09T14:26:16.524Z",
+        "created_at": "2023-09-09T17:10:47.768Z",
+        "updated_at": "2023-09-10T04:57:59.186Z",
+        "faculty_id": "0fe7335a-61ab-41ad-bda8-99981735e02e",
+        "term_id": "6d95b5b6-c2a5-4e4b-826d-a2614deb157e"
+      },
+      {
+        "id": "79db2339-9a8c-4287-9e12-8fdf820004df",
+        "name": "Financial Accounting",
+        "description": "Understand the principles of financial accounting",
+        "start_date": "2023-09-09T17:35:32.646Z",
+        "end_date": "2023-09-10T02:59:14.474Z",
+        "created_at": "2023-09-09T13:41:20.522Z",
+        "updated_at": "2023-09-09T06:35:05.787Z",
+        "faculty_id": "d94702ca-4dc3-4617-9fdd-ce3937bde922",
+        "term_id": "2f172f31-082c-4e0e-919b-508ea85494ef"
+      },
+      {
+        "id": "1a6fc85b-ec3a-45bd-893a-950d6204a3e5",
+        "name": "Introduction to Programming",
+        "description": "Develop programming skills using a high-level language",
+        "start_date": "2023-09-09T09:41:35.437Z",
+        "end_date": "2023-09-09T16:10:53.362Z",
+        "created_at": "2023-09-09T16:02:21.641Z",
+        "updated_at": "2023-09-10T01:20:03.283Z",
+        "faculty_id": "0fe7335a-61ab-41ad-bda8-99981735e02e",
+        "term_id": "02ef2521-64ee-42a2-ac90-39a2847e4696"
+      }
+    ],
+    "student": [
+      {
+        "id": "8c65a00b-4d28-4ad8-8656-169bb520f2cf",
+        "name": "John Smith",
+        "admission_date": "2023-09-09T22:36:13.822Z",
+        "created_at": "2023-09-09T15:37:49.524Z",
+        "updated_at": "2023-09-09T06:42:09.044Z",
+        "course_id": "9fa820a5-df73-4003-8a2c-623af5cee4b6",
+        "term_id": "c4aa9368-bbeb-4558-a754-3004b716bb91",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e0ff3612-b542-4e68-9e7e-ba025c7d8a7b",
+        "name": "Emily Johnson",
+        "admission_date": "2023-09-09T14:01:42.758Z",
+        "created_at": "2023-09-10T01:39:53.854Z",
+        "updated_at": "2023-09-09T13:03:22.083Z",
+        "course_id": "9fa820a5-df73-4003-8a2c-623af5cee4b6",
+        "term_id": "2961cf49-3f83-4817-a117-af660332c941",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "71cec37b-df5f-4c8e-9a5d-2ba1f6e377cf",
+        "name": "Michael Brown",
+        "admission_date": "2023-09-10T05:09:51.984Z",
+        "created_at": "2023-09-10T05:14:56.642Z",
+        "updated_at": "2023-09-09T12:49:48.561Z",
+        "course_id": "9fa820a5-df73-4003-8a2c-623af5cee4b6",
+        "term_id": "02ef2521-64ee-42a2-ac90-39a2847e4696",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "74bd2f66-4153-4f21-aa23-4c7e45c2cfbd",
+        "name": "Olivia Davis",
+        "admission_date": "2023-09-09T09:45:58.999Z",
+        "created_at": "2023-09-09T10:20:06.421Z",
+        "updated_at": "2023-09-09T06:47:31.747Z",
+        "course_id": "1a6fc85b-ec3a-45bd-893a-950d6204a3e5",
+        "term_id": "2f172f31-082c-4e0e-919b-508ea85494ef",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "414b1b7c-d363-4e8d-b27c-65edff78dbe8",
+        "name": "Jacob Wilson",
+        "admission_date": "2023-09-09T15:50:59.965Z",
+        "created_at": "2023-09-10T00:42:43.560Z",
+        "updated_at": "2023-09-09T22:48:23.205Z",
+        "course_id": "1a6fc85b-ec3a-45bd-893a-950d6204a3e5",
+        "term_id": "2961cf49-3f83-4817-a117-af660332c941",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "750e97eb-332e-48b4-9046-8a42f4c7b41b",
+        "email": "Liliana.Kemmer57@hotmail.com",
+        "firstName": "Carolanne",
+        "lastName": "Welch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1205.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f2b6fda9-130c-420d-9fe6-e1717bf29972",
+        "email": "Beryl9@gmail.com",
+        "firstName": "Kendall",
+        "lastName": "Tremblay",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18962947",
+        "tenantId": null
+      },
+      {
+        "reference": "015c0b90-9349-41e7-ad00-3fe409c14c8e",
+        "email": "Allan.Jakubowski31@yahoo.com",
+        "firstName": "Torey",
+        "lastName": "Kozey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/21.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "58b41df1-1454-4cbc-af7e-79fe79bb7e8a",
+        "email": "Yasmeen.Kling@hotmail.com",
+        "firstName": "Dianna",
+        "lastName": "Hoeger-Greenfelder",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1018.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "33f7a2e1-0327-4d94-9b86-186ef5c56845",
+        "email": "Salma81@hotmail.com",
+        "firstName": "Pamela",
+        "lastName": "Jast",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74494354",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "term": [
+      {
+        "id": "1612e051-0dea-4b31-8a86-95f216741373",
+        "name": "Spring 2022",
+        "start_date": "2023-09-10T00:45:24.908Z",
+        "end_date": "2023-09-10T00:20:05.867Z",
+        "is_active": false,
+        "created_at": "2023-09-09T14:43:27.477Z",
+        "updated_at": "2023-09-09T23:08:34.424Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "28668668-a687-4d48-a735-46625dd7e3e5",
+        "name": "Fall 2021",
+        "start_date": "2023-09-10T02:25:42.088Z",
+        "end_date": "2023-09-09T15:39:37.577Z",
+        "is_active": true,
+        "created_at": "2023-09-09T19:13:57.477Z",
+        "updated_at": "2023-09-10T05:15:13.216Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "822568b7-e803-42d4-9529-2119b124900d",
+        "name": "Summer 2022",
+        "start_date": "2023-09-09T11:20:01.535Z",
+        "end_date": "2023-09-10T04:52:36.083Z",
+        "is_active": true,
+        "created_at": "2023-09-09T15:32:47.285Z",
+        "updated_at": "2023-09-10T05:09:30.465Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "b7193c33-2989-4ff4-a830-02c8c2611ca5",
+        "name": "Winter 2022",
+        "start_date": "2023-09-10T00:22:52.455Z",
+        "end_date": "2023-09-09T06:26:14.703Z",
+        "is_active": true,
+        "created_at": "2023-09-09T23:06:39.057Z",
+        "updated_at": "2023-09-09T15:00:07.428Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "5d6b5008-6b34-4ba9-a42a-a0b1de5dbafb",
+        "name": "Fall 2022",
+        "start_date": "2023-09-09T10:17:08.713Z",
+        "end_date": "2023-09-09T18:27:18.747Z",
+        "is_active": true,
+        "created_at": "2023-09-09T09:46:38.369Z",
+        "updated_at": "2023-09-09T17:59:11.697Z",
+        "university_id": "main_entity_pk"
+      }
+    ],
+    "faculty": [
+      {
+        "id": "62243a61-93cd-4e23-a6a7-e53f6a0fd731",
+        "name": "John Smith",
+        "department": "Computer Science",
+        "designation": "Professor",
+        "created_at": "2023-09-09T14:01:24.611Z",
+        "updated_at": "2023-09-09T15:25:59.140Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb73ffe7-4c7f-46a8-87b1-344462559ccd",
+        "name": "Jane Doe",
+        "department": "Mathematics",
+        "designation": "Associate Professor",
+        "created_at": "2023-09-09T14:30:02.891Z",
+        "updated_at": "2023-09-09T22:54:07.462Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b526f10a-8cae-4e21-9a06-3e9c7599fc16",
+        "name": "Michael Brown",
+        "department": "Physics",
+        "designation": "Assistant Professor",
+        "created_at": "2023-09-10T00:55:35.975Z",
+        "updated_at": "2023-09-10T03:15:45.002Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c50787d2-1f8d-4776-9349-9e08f146a4b0",
+        "name": "Sarah Jones",
+        "department": "Biology",
+        "designation": "Lecturer",
+        "created_at": "2023-09-09T17:18:41.609Z",
+        "updated_at": "2023-09-10T03:36:12.051Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "83959a55-26b9-42e0-8d1e-a389659d7b49",
+        "name": "Robert Wilson",
+        "department": "Chemistry",
+        "designation": "Researcher",
+        "created_at": "2023-09-10T03:14:52.826Z",
+        "updated_at": "2023-09-10T04:10:37.504Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "course": [
+      {
+        "id": "f3866686-936d-4a70-9475-d21b219f087f",
+        "name": "Introduction to Computer Science",
+        "description": "This course provides an introduction to the fundamentals of computer science.",
+        "start_date": "2023-09-10T03:31:50.381Z",
+        "end_date": "2023-09-09T08:21:04.398Z",
+        "created_at": "2023-09-09T07:08:38.347Z",
+        "updated_at": "2023-09-10T00:06:00.326Z",
+        "faculty_id": "c50787d2-1f8d-4776-9349-9e08f146a4b0",
+        "term_id": "822568b7-e803-42d4-9529-2119b124900d"
+      },
+      {
+        "id": "6bcfeaf3-f75c-4a02-853e-6b129b95d3d2",
+        "name": "Advanced Calculus",
+        "description": "This course covers advanced topics in calculus.",
+        "start_date": "2023-09-09T09:46:39.645Z",
+        "end_date": "2023-09-09T18:40:08.328Z",
+        "created_at": "2023-09-09T16:00:47.524Z",
+        "updated_at": "2023-09-09T19:42:59.797Z",
+        "faculty_id": "62243a61-93cd-4e23-a6a7-e53f6a0fd731",
+        "term_id": "5d6b5008-6b34-4ba9-a42a-a0b1de5dbafb"
+      },
+      {
+        "id": "38b3f564-2225-4251-bd32-34d301177788",
+        "name": "Quantum Mechanics",
+        "description": "This course explores the principles of quantum mechanics.",
+        "start_date": "2023-09-09T14:43:53.016Z",
+        "end_date": "2023-09-09T12:55:36.975Z",
+        "created_at": "2023-09-09T12:03:18.243Z",
+        "updated_at": "2023-09-10T03:07:37.668Z",
+        "faculty_id": "62243a61-93cd-4e23-a6a7-e53f6a0fd731",
+        "term_id": "822568b7-e803-42d4-9529-2119b124900d"
+      },
+      {
+        "id": "58481e0a-8f90-46d6-a651-6758e8e96c8d",
+        "name": "Genetics",
+        "description": "This course focuses on the study of genetics.",
+        "start_date": "2023-09-09T08:32:31.082Z",
+        "end_date": "2023-09-09T23:43:12.209Z",
+        "created_at": "2023-09-09T22:20:42.648Z",
+        "updated_at": "2023-09-09T14:27:13.075Z",
+        "faculty_id": "cb73ffe7-4c7f-46a8-87b1-344462559ccd",
+        "term_id": "822568b7-e803-42d4-9529-2119b124900d"
+      },
+      {
+        "id": "e3c3eb26-004e-42e5-8503-084ed9799e4d",
+        "name": "Organic Chemistry",
+        "description": "This course examines the principles of organic chemistry.",
+        "start_date": "2023-09-09T18:31:34.005Z",
+        "end_date": "2023-09-09T19:05:01.973Z",
+        "created_at": "2023-09-09T14:22:56.853Z",
+        "updated_at": "2023-09-09T07:25:17.743Z",
+        "faculty_id": "b526f10a-8cae-4e21-9a06-3e9c7599fc16",
+        "term_id": "1612e051-0dea-4b31-8a86-95f216741373"
+      }
+    ],
+    "student": [
+      {
+        "id": "8c9e6b91-336d-45e0-9fd7-dbe2ba50ce08",
+        "name": "John Doe",
+        "admission_date": "2023-09-10T00:47:41.057Z",
+        "created_at": "2023-09-10T01:56:36.882Z",
+        "updated_at": "2023-09-09T17:38:37.626Z",
+        "course_id": "e3c3eb26-004e-42e5-8503-084ed9799e4d",
+        "term_id": "822568b7-e803-42d4-9529-2119b124900d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b0be1d8c-da1e-4f58-b037-bcea61b134ba",
+        "name": "Jane Smith",
+        "admission_date": "2023-09-10T03:23:04.175Z",
+        "created_at": "2023-09-10T00:02:22.351Z",
+        "updated_at": "2023-09-09T09:53:20.045Z",
+        "course_id": "e3c3eb26-004e-42e5-8503-084ed9799e4d",
+        "term_id": "822568b7-e803-42d4-9529-2119b124900d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b3ae6798-ba54-40a7-961f-1e077daa75c6",
+        "name": "Michael Brown",
+        "admission_date": "2023-09-10T05:26:05.099Z",
+        "created_at": "2023-09-09T09:41:48.962Z",
+        "updated_at": "2023-09-09T17:26:47.223Z",
+        "course_id": "58481e0a-8f90-46d6-a651-6758e8e96c8d",
+        "term_id": "1612e051-0dea-4b31-8a86-95f216741373",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cff1bcb4-22f2-4415-a3c0-b9b35ac956cb",
+        "name": "Sarah Jones",
+        "admission_date": "2023-09-09T12:45:41.339Z",
+        "created_at": "2023-09-09T20:24:32.763Z",
+        "updated_at": "2023-09-10T04:55:59.758Z",
+        "course_id": "f3866686-936d-4a70-9475-d21b219f087f",
+        "term_id": "822568b7-e803-42d4-9529-2119b124900d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d3658c07-8266-4921-8add-30783022e9b5",
+        "name": "Robert Wilson",
+        "admission_date": "2023-09-10T05:21:08.188Z",
+        "created_at": "2023-09-09T19:40:22.975Z",
+        "updated_at": "2023-09-09T09:24:41.409Z",
+        "course_id": "6bcfeaf3-f75c-4a02-853e-6b129b95d3d2",
+        "term_id": "28668668-a687-4d48-a735-46625dd7e3e5",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e24e2517-79bc-44bb-93aa-9daf03294d2e",
+        "email": "Winnifred.Becker@hotmail.com",
+        "firstName": "Nils",
+        "lastName": "Kuvalis",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/365.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f700707e-fa14-48a8-940a-9998ab753700",
+        "email": "Maxine_Ullrich@gmail.com",
+        "firstName": "Lysanne",
+        "lastName": "Stiedemann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1093.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "699e7817-711a-42af-a475-b2ee4a895147",
+        "email": "Ella_Rippin@hotmail.com",
+        "firstName": "Raul",
+        "lastName": "Schowalter",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71739570",
+        "tenantId": null
+      },
+      {
+        "reference": "b264f2b7-2ae4-4e4e-8d48-29ea62cb0536",
+        "email": "Joan.Cartwright-Ward83@gmail.com",
+        "firstName": "Hilton",
+        "lastName": "Douglas",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83141088",
+        "tenantId": null
+      },
+      {
+        "reference": "9fa48df4-3f6e-4df7-9c87-c5b834c6bd69",
+        "email": "Sophia_Smith@gmail.com",
+        "firstName": "Stefan",
+        "lastName": "Farrell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1193.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "term": [
+      {
+        "id": "c5605f9a-776f-4cb9-bb06-f880de49d9b4",
+        "name": "Fall 2021",
+        "start_date": "2023-09-09T21:09:15.255Z",
+        "end_date": "2023-09-10T01:02:41.990Z",
+        "is_active": false,
+        "created_at": "2023-09-09T20:25:43.958Z",
+        "updated_at": "2023-09-09T10:22:24.273Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "0bb95c6d-0960-4722-8dfd-88cf17c2ab0e",
+        "name": "Spring 2022",
+        "start_date": "2023-09-09T13:55:19.055Z",
+        "end_date": "2023-09-09T15:03:44.287Z",
+        "is_active": false,
+        "created_at": "2023-09-09T22:47:48.259Z",
+        "updated_at": "2023-09-09T16:50:33.054Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "8bf9ee25-4b2f-43a4-aed7-9168df891cf7",
+        "name": "Summer 2022",
+        "start_date": "2023-09-09T17:34:32.175Z",
+        "end_date": "2023-09-09T20:59:26.669Z",
+        "is_active": false,
+        "created_at": "2023-09-09T13:26:35.145Z",
+        "updated_at": "2023-09-09T06:05:22.610Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "71c4c9aa-2a62-47a6-9a83-c8fd3a5a63ae",
+        "name": "Winter 2022",
+        "start_date": "2023-09-09T07:34:14.710Z",
+        "end_date": "2023-09-09T23:54:03.353Z",
+        "is_active": true,
+        "created_at": "2023-09-09T21:01:18.508Z",
+        "updated_at": "2023-09-10T02:58:48.013Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "e8833d8e-a988-4297-8090-1581bb71913c",
+        "name": "Autumn 2021",
+        "start_date": "2023-09-10T05:20:28.893Z",
+        "end_date": "2023-09-09T21:22:24.264Z",
+        "is_active": false,
+        "created_at": "2023-09-10T00:45:14.810Z",
+        "updated_at": "2023-09-09T18:29:25.901Z",
+        "university_id": "main_entity_pk"
+      }
+    ],
+    "faculty": [
+      {
+        "id": "0dbb9dee-f866-47ca-8b61-ad5792606bb5",
+        "name": "Faculty of Arts",
+        "department": "Department of History",
+        "designation": "Professor",
+        "created_at": "2023-09-09T23:51:35.998Z",
+        "updated_at": "2023-09-09T20:05:50.803Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "290b1c79-9326-4b99-b550-813dc0e5f9dd",
+        "name": "Faculty of Science",
+        "department": "Department of Biology",
+        "designation": "Associate Professor",
+        "created_at": "2023-09-09T13:44:36.881Z",
+        "updated_at": "2023-09-10T03:22:37.005Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad533c5a-01aa-470c-af7d-89d50fba0da6",
+        "name": "Faculty of Engineering",
+        "department": "Department of Computer Science",
+        "designation": "Assistant Professor",
+        "created_at": "2023-09-10T01:25:53.721Z",
+        "updated_at": "2023-09-09T09:59:16.812Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1892a8e3-6cfc-4ef9-8eec-12a5b2bfdc23",
+        "name": "Faculty of Business",
+        "department": "Department of Economics",
+        "designation": "Lecturer",
+        "created_at": "2023-09-09T09:57:45.931Z",
+        "updated_at": "2023-09-09T20:07:34.954Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d45fb904-68ee-4bd4-8de0-7a40bbe52eca",
+        "name": "Faculty of Medicine",
+        "department": "Department of Psychology",
+        "designation": "Researcher",
+        "created_at": "2023-09-10T00:05:19.439Z",
+        "updated_at": "2023-09-09T11:51:44.819Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "course": [
+      {
+        "id": "891bd754-e4f8-47a9-afe6-9f0e52a6a848",
+        "name": "Introduction to Programming",
+        "description": "This course provides an introduction to programming concepts and techniques.",
+        "start_date": "2023-09-09T16:57:01.727Z",
+        "end_date": "2023-09-09T17:08:27.694Z",
+        "created_at": "2023-09-09T19:05:48.772Z",
+        "updated_at": "2023-09-10T00:48:17.500Z",
+        "faculty_id": "ad533c5a-01aa-470c-af7d-89d50fba0da6",
+        "term_id": "71c4c9aa-2a62-47a6-9a83-c8fd3a5a63ae"
+      },
+      {
+        "id": "615c2def-1f8c-40ba-a6c3-92643b22af37",
+        "name": "Advanced Calculus",
+        "description": "This course covers advanced topics in calculus including multivariable calculus and differential equations.",
+        "start_date": "2023-09-09T19:43:23.102Z",
+        "end_date": "2023-09-09T09:32:55.758Z",
+        "created_at": "2023-09-09T10:09:52.766Z",
+        "updated_at": "2023-09-09T06:47:06.070Z",
+        "faculty_id": "290b1c79-9326-4b99-b550-813dc0e5f9dd",
+        "term_id": "8bf9ee25-4b2f-43a4-aed7-9168df891cf7"
+      },
+      {
+        "id": "3a857a74-65ca-449a-b72b-b0b2e2585888",
+        "name": "Digital Marketing Strategies",
+        "description": "This course explores various digital marketing strategies and their application in real-world scenarios.",
+        "start_date": "2023-09-09T19:42:51.697Z",
+        "end_date": "2023-09-09T07:20:39.158Z",
+        "created_at": "2023-09-09T11:47:14.539Z",
+        "updated_at": "2023-09-09T10:10:52.235Z",
+        "faculty_id": "ad533c5a-01aa-470c-af7d-89d50fba0da6",
+        "term_id": "c5605f9a-776f-4cb9-bb06-f880de49d9b4"
+      },
+      {
+        "id": "b22b5b10-0da6-4bc0-a6d9-57cc4fe276f4",
+        "name": "Business Ethics",
+        "description": "This course examines ethical issues in business and explores frameworks for ethical decision-making.",
+        "start_date": "2023-09-09T07:37:14.976Z",
+        "end_date": "2023-09-09T13:43:23.242Z",
+        "created_at": "2023-09-09T06:18:30.196Z",
+        "updated_at": "2023-09-09T18:15:22.723Z",
+        "faculty_id": "1892a8e3-6cfc-4ef9-8eec-12a5b2bfdc23",
+        "term_id": "8bf9ee25-4b2f-43a4-aed7-9168df891cf7"
+      },
+      {
+        "id": "3ad723c1-062b-4682-b8a6-5e0a941ee986",
+        "name": "Psychology of Human Behavior",
+        "description": "This course analyzes the factors influencing human behavior and provides insights into psychological theories and research.",
+        "start_date": "2023-09-09T14:11:24.558Z",
+        "end_date": "2023-09-09T10:42:30.825Z",
+        "created_at": "2023-09-10T04:56:17.475Z",
+        "updated_at": "2023-09-09T07:09:55.291Z",
+        "faculty_id": "290b1c79-9326-4b99-b550-813dc0e5f9dd",
+        "term_id": "0bb95c6d-0960-4722-8dfd-88cf17c2ab0e"
+      }
+    ],
+    "student": [
+      {
+        "id": "eba61172-6363-4645-84a9-a42081b9b640",
+        "name": "John Smith",
+        "admission_date": "2023-09-10T01:52:46.025Z",
+        "created_at": "2023-09-09T20:56:54.601Z",
+        "updated_at": "2023-09-09T07:18:30.661Z",
+        "course_id": "891bd754-e4f8-47a9-afe6-9f0e52a6a848",
+        "term_id": "0bb95c6d-0960-4722-8dfd-88cf17c2ab0e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b5a23688-90e8-4dde-8f8f-1544558bae75",
+        "name": "Emily Johnson",
+        "admission_date": "2023-09-09T08:30:12.778Z",
+        "created_at": "2023-09-10T04:29:05.847Z",
+        "updated_at": "2023-09-09T19:23:00.360Z",
+        "course_id": "891bd754-e4f8-47a9-afe6-9f0e52a6a848",
+        "term_id": "0bb95c6d-0960-4722-8dfd-88cf17c2ab0e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "902678f7-a0bb-4a1b-8d64-e95acf82757a",
+        "name": "Michael Davis",
+        "admission_date": "2023-09-10T05:16:50.798Z",
+        "created_at": "2023-09-10T01:15:10.563Z",
+        "updated_at": "2023-09-10T02:28:21.776Z",
+        "course_id": "3ad723c1-062b-4682-b8a6-5e0a941ee986",
+        "term_id": "8bf9ee25-4b2f-43a4-aed7-9168df891cf7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "79afbaf4-7576-464a-811f-392144f068f3",
+        "name": "Sophia Anderson",
+        "admission_date": "2023-09-09T20:38:28.894Z",
+        "created_at": "2023-09-09T09:17:54.368Z",
+        "updated_at": "2023-09-09T08:37:15.698Z",
+        "course_id": "3a857a74-65ca-449a-b72b-b0b2e2585888",
+        "term_id": "8bf9ee25-4b2f-43a4-aed7-9168df891cf7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bb25a9ab-f75d-430e-a8c5-1fcc73258329",
+        "name": "Daniel Martinez",
+        "admission_date": "2023-09-09T09:12:52.456Z",
+        "created_at": "2023-09-09T13:36:18.326Z",
+        "updated_at": "2023-09-10T00:24:00.592Z",
+        "course_id": "3a857a74-65ca-449a-b72b-b0b2e2585888",
+        "term_id": "0bb95c6d-0960-4722-8dfd-88cf17c2ab0e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "65cd1a66-fd60-4ef4-8625-788bd4e7408b",
+        "email": "Easton28@hotmail.com",
+        "firstName": "Bobbie",
+        "lastName": "Greenfelder",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1629217",
+        "tenantId": null
+      },
+      {
+        "reference": "42422a76-4911-4bd4-a4fe-c44028908a4f",
+        "email": "Aurelie_Mueller44@gmail.com",
+        "firstName": "Jayne",
+        "lastName": "McLaughlin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1128.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "edeb313f-bb7c-444b-bc44-a5e457fbab69",
+        "email": "Jerad.Sauer53@gmail.com",
+        "firstName": "Ludwig",
+        "lastName": "Rolfson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/98.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "949debe7-8367-4374-a861-4a5bd944971d",
+        "email": "Darlene50@yahoo.com",
+        "firstName": "Doyle",
+        "lastName": "Cassin-Maggio",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/380.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "908ae6c0-982c-4ef1-bf22-1a14fa219874",
+        "email": "Karianne.Huels@hotmail.com",
+        "firstName": "Helen",
+        "lastName": "Kohler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/742.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "term": [
+      {
+        "id": "ca6c5891-494c-49f3-bdc4-2c69373204e8",
+        "name": "Fall 2022",
+        "start_date": "2023-09-09T18:53:44.266Z",
+        "end_date": "2023-09-09T08:18:54.160Z",
+        "is_active": false,
+        "created_at": "2023-09-10T05:35:32.050Z",
+        "updated_at": "2023-09-09T21:41:03.391Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "e043eff5-9856-4647-a515-3a7546578d61",
+        "name": "Spring 2023",
+        "start_date": "2023-09-09T16:27:11.026Z",
+        "end_date": "2023-09-09T16:31:49.921Z",
+        "is_active": false,
+        "created_at": "2023-09-10T04:15:53.051Z",
+        "updated_at": "2023-09-09T08:33:30.504Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "ebf5d987-e4cc-4b9b-8d9d-ee9e44b628c0",
+        "name": "Summer 2023",
+        "start_date": "2023-09-09T05:57:53.701Z",
+        "end_date": "2023-09-09T08:12:47.827Z",
+        "is_active": true,
+        "created_at": "2023-09-09T23:22:37.643Z",
+        "updated_at": "2023-09-09T12:13:15.891Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "eb6e1046-75f1-4148-9721-5837d0a347eb",
+        "name": "Winter 2022",
+        "start_date": "2023-09-09T08:10:02.362Z",
+        "end_date": "2023-09-09T22:32:10.603Z",
+        "is_active": false,
+        "created_at": "2023-09-10T04:50:23.971Z",
+        "updated_at": "2023-09-09T13:31:38.954Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "fe11201f-9494-4b18-bb9b-d8506f110bd1",
+        "name": "Autumn 2023",
+        "start_date": "2023-09-09T10:27:18.837Z",
+        "end_date": "2023-09-09T12:43:22.224Z",
+        "is_active": false,
+        "created_at": "2023-09-10T04:41:16.311Z",
+        "updated_at": "2023-09-09T06:02:03.744Z",
+        "university_id": "main_entity_pk"
+      }
+    ],
+    "faculty": [
+      {
+        "id": "30f30fe5-80c1-4984-8a91-2b913ae81645",
+        "name": "John Smith",
+        "department": "Computer Science",
+        "designation": "Professor",
+        "created_at": "2023-09-09T20:48:18.894Z",
+        "updated_at": "2023-09-09T13:54:40.501Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "17668f64-ae8d-43b9-b7db-58cdfe8a3251",
+        "name": "Jane Doe",
+        "department": "Business Administration",
+        "designation": "Associate Professor",
+        "created_at": "2023-09-09T10:29:18.513Z",
+        "updated_at": "2023-09-10T02:45:05.805Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2a7c4ecf-1bfe-4b92-9da7-528556c7aa22",
+        "name": "Michael Brown",
+        "department": "Engineering",
+        "designation": "Assistant Professor",
+        "created_at": "2023-09-09T23:01:15.689Z",
+        "updated_at": "2023-09-10T00:49:02.464Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc3f40d6-c100-4a7a-b03c-abbf9d88e0e0",
+        "name": "Sarah Johnson",
+        "department": "Psychology",
+        "designation": "Lecturer",
+        "created_at": "2023-09-09T12:39:23.121Z",
+        "updated_at": "2023-09-09T13:25:14.631Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "376bfd0a-eda0-4966-86bd-c61d9fe1f111",
+        "name": "David Wilson",
+        "department": "Biology",
+        "designation": "Researcher",
+        "created_at": "2023-09-09T20:47:22.043Z",
+        "updated_at": "2023-09-09T16:37:07.224Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "course": [
+      {
+        "id": "b0638dbf-24bd-477c-be75-edc48bfcad6f",
+        "name": "Introduction to Programming",
+        "description": "A comprehensive course on programming basics",
+        "start_date": "2023-09-09T16:10:15.117Z",
+        "end_date": "2023-09-10T04:44:46.112Z",
+        "created_at": "2023-09-09T23:22:04.577Z",
+        "updated_at": "2023-09-09T22:09:21.790Z",
+        "faculty_id": "376bfd0a-eda0-4966-86bd-c61d9fe1f111",
+        "term_id": "ca6c5891-494c-49f3-bdc4-2c69373204e8"
+      },
+      {
+        "id": "1aae371e-8244-4a92-a2ea-0786471f347a",
+        "name": "Marketing Principles",
+        "description": "An overview of marketing strategies and concepts",
+        "start_date": "2023-09-09T09:35:18.506Z",
+        "end_date": "2023-09-09T19:54:55.329Z",
+        "created_at": "2023-09-09T05:46:10.209Z",
+        "updated_at": "2023-09-09T17:49:08.585Z",
+        "faculty_id": "30f30fe5-80c1-4984-8a91-2b913ae81645",
+        "term_id": "ebf5d987-e4cc-4b9b-8d9d-ee9e44b628c0"
+      },
+      {
+        "id": "2a7cd671-46b4-4a65-8ee8-98602ae87048",
+        "name": "Mechanical Engineering Fundamentals",
+        "description": "Introduction to principles of mechanical engineering",
+        "start_date": "2023-09-10T01:19:45.104Z",
+        "end_date": "2023-09-09T14:34:26.709Z",
+        "created_at": "2023-09-10T00:24:49.374Z",
+        "updated_at": "2023-09-09T18:51:37.866Z",
+        "faculty_id": "2a7c4ecf-1bfe-4b92-9da7-528556c7aa22",
+        "term_id": "e043eff5-9856-4647-a515-3a7546578d61"
+      },
+      {
+        "id": "06e450bf-8b52-40a0-a8ee-e4c9a4445a4e",
+        "name": "Cognitive Psychology",
+        "description": "Exploring the human mind and behavior",
+        "start_date": "2023-09-09T09:25:10.047Z",
+        "end_date": "2023-09-09T13:37:43.440Z",
+        "created_at": "2023-09-09T11:33:06.942Z",
+        "updated_at": "2023-09-09T06:28:53.985Z",
+        "faculty_id": "376bfd0a-eda0-4966-86bd-c61d9fe1f111",
+        "term_id": "eb6e1046-75f1-4148-9721-5837d0a347eb"
+      },
+      {
+        "id": "786f35cc-a3f6-495f-b7ad-3bfa3b63a3ef",
+        "name": "Cell Biology",
+        "description": "Study of cellular structures and functions",
+        "start_date": "2023-09-09T20:44:11.018Z",
+        "end_date": "2023-09-09T09:27:51.441Z",
+        "created_at": "2023-09-09T08:41:46.072Z",
+        "updated_at": "2023-09-10T01:56:38.367Z",
+        "faculty_id": "30f30fe5-80c1-4984-8a91-2b913ae81645",
+        "term_id": "eb6e1046-75f1-4148-9721-5837d0a347eb"
+      }
+    ],
+    "student": [
+      {
+        "id": "e06e95ec-ec45-421b-a83f-99444b030806",
+        "name": "John Doe",
+        "admission_date": "2023-09-10T04:11:30.435Z",
+        "created_at": "2023-09-09T19:07:14.809Z",
+        "updated_at": "2023-09-09T11:26:12.868Z",
+        "course_id": "786f35cc-a3f6-495f-b7ad-3bfa3b63a3ef",
+        "term_id": "eb6e1046-75f1-4148-9721-5837d0a347eb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cc3f8f90-7332-4a5c-a0e8-51505ce6e438",
+        "name": "Jane Smith",
+        "admission_date": "2023-09-09T16:56:19.263Z",
+        "created_at": "2023-09-09T06:21:24.562Z",
+        "updated_at": "2023-09-10T02:25:14.267Z",
+        "course_id": "786f35cc-a3f6-495f-b7ad-3bfa3b63a3ef",
+        "term_id": "fe11201f-9494-4b18-bb9b-d8506f110bd1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb953a04-768d-4845-b0a9-ba40c4e9b9af",
+        "name": "Michael Brown",
+        "admission_date": "2023-09-10T04:19:57.269Z",
+        "created_at": "2023-09-10T02:44:01.048Z",
+        "updated_at": "2023-09-09T05:58:29.068Z",
+        "course_id": "2a7cd671-46b4-4a65-8ee8-98602ae87048",
+        "term_id": "ca6c5891-494c-49f3-bdc4-2c69373204e8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "64d572a6-53f1-4394-a1dd-44a0fa1104d1",
+        "name": "Sarah Johnson",
+        "admission_date": "2023-09-10T05:11:31.119Z",
+        "created_at": "2023-09-09T09:58:03.395Z",
+        "updated_at": "2023-09-09T23:45:22.167Z",
+        "course_id": "06e450bf-8b52-40a0-a8ee-e4c9a4445a4e",
+        "term_id": "ca6c5891-494c-49f3-bdc4-2c69373204e8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "16eaf54b-6a3c-4b82-81d4-a8e472555750",
+        "name": "David Wilson",
+        "admission_date": "2023-09-09T06:22:16.417Z",
+        "created_at": "2023-09-09T07:59:21.323Z",
+        "updated_at": "2023-09-09T23:40:34.290Z",
+        "course_id": "2a7cd671-46b4-4a65-8ee8-98602ae87048",
+        "term_id": "eb6e1046-75f1-4148-9721-5837d0a347eb",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "390c4d4a-e56e-4705-a6c8-e34cc486090e",
+        "email": "Trenton_Rowe47@yahoo.com",
+        "firstName": "Randall",
+        "lastName": "Kreiger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/825.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dbe18dc5-736e-485b-9e14-4f28d38c79c4",
+        "email": "Breanne.Parker-Greenholt@hotmail.com",
+        "firstName": "Jessy",
+        "lastName": "Jakubowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49305178",
+        "tenantId": null
+      },
+      {
+        "reference": "ec1ab2aa-e7bd-4394-a125-4669f9633fc4",
+        "email": "Furman.Nolan81@gmail.com",
+        "firstName": "Gaston",
+        "lastName": "Farrell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1213.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "267771ff-fd6c-41b1-82b0-39ea3503ba93",
+        "email": "Cheyenne.Lind89@yahoo.com",
+        "firstName": "Antonietta",
+        "lastName": "Pacocha",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96877787",
+        "tenantId": null
+      },
+      {
+        "reference": "9620fed6-e57d-4e9c-95f8-51d4c462f4d7",
+        "email": "Samara_Sporer58@hotmail.com",
+        "firstName": "Leonora",
+        "lastName": "Oberbrunner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/426.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "term": [
+      {
+        "id": "ca256f6b-3757-43ff-aecf-d97d54bc1788",
+        "name": "Fall 2021",
+        "start_date": "2023-09-10T01:12:32.523Z",
+        "end_date": "2023-09-09T16:40:59.453Z",
+        "is_active": true,
+        "created_at": "2023-09-10T02:28:47.003Z",
+        "updated_at": "2023-09-10T04:05:13.806Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "de6721a8-5963-4775-9b21-85c8c4ee4bf5",
+        "name": "Spring 2022",
+        "start_date": "2023-09-09T16:55:47.548Z",
+        "end_date": "2023-09-09T07:42:30.421Z",
+        "is_active": false,
+        "created_at": "2023-09-09T07:57:17.015Z",
+        "updated_at": "2023-09-09T05:51:28.619Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "c4bf2aff-1165-4638-98f3-bf4622230a95",
+        "name": "Summer 2022",
+        "start_date": "2023-09-09T15:56:52.137Z",
+        "end_date": "2023-09-09T20:59:29.125Z",
+        "is_active": true,
+        "created_at": "2023-09-10T01:32:42.056Z",
+        "updated_at": "2023-09-09T16:15:07.333Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "21d3f6c6-ebbc-4e3e-89ea-74bc6512de3c",
+        "name": "Winter 2022",
+        "start_date": "2023-09-09T10:57:15.850Z",
+        "end_date": "2023-09-09T10:33:39.509Z",
+        "is_active": false,
+        "created_at": "2023-09-09T11:07:25.605Z",
+        "updated_at": "2023-09-09T23:19:04.135Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "a9d01215-1ffb-446a-9864-581cee450b86",
+        "name": "Autumn 2021",
+        "start_date": "2023-09-10T00:24:29.335Z",
+        "end_date": "2023-09-09T06:34:13.807Z",
+        "is_active": false,
+        "created_at": "2023-09-10T00:30:50.155Z",
+        "updated_at": "2023-09-09T17:20:19.098Z",
+        "university_id": "main_entity_pk"
+      }
+    ],
+    "faculty": [
+      {
+        "id": "db09f2a5-38cc-4067-8688-b51777c6e660",
+        "name": "Department of Computer Science",
+        "department": "Computer Science",
+        "designation": "Professor",
+        "created_at": "2023-09-09T07:16:10.564Z",
+        "updated_at": "2023-09-09T12:37:27.736Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "56db7fd3-b6a2-4979-86a0-4ec8f86fb03d",
+        "name": "School of Business",
+        "department": "Business Administration",
+        "designation": "Associate Professor",
+        "created_at": "2023-09-10T01:20:25.126Z",
+        "updated_at": "2023-09-10T04:23:26.499Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "49401f6a-3b38-45dd-90b7-1b0917e7c939",
+        "name": "Faculty of Medicine",
+        "department": "Medicine",
+        "designation": "Assistant Professor",
+        "created_at": "2023-09-09T22:47:07.425Z",
+        "updated_at": "2023-09-09T19:08:42.207Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "52d6abb8-4b2d-4cf0-a161-90d79e0890b2",
+        "name": "College of Engineering",
+        "department": "Engineering",
+        "designation": "Lecturer",
+        "created_at": "2023-09-09T12:15:20.230Z",
+        "updated_at": "2023-09-09T10:46:27.018Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4eba2919-dbec-45cb-8492-b15da9097c04",
+        "name": "Department of Arts",
+        "department": "Arts",
+        "designation": "Researcher",
+        "created_at": "2023-09-10T02:28:39.802Z",
+        "updated_at": "2023-09-10T05:40:46.075Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "course": [
+      {
+        "id": "dd02965e-8173-4a36-bc82-e7c464ce76ad",
+        "name": "Introduction to Programming",
+        "description": "Learn the basics of programming using Python",
+        "start_date": "2023-09-09T18:23:46.381Z",
+        "end_date": "2023-09-09T08:56:59.552Z",
+        "created_at": "2023-09-09T20:45:19.528Z",
+        "updated_at": "2023-09-09T06:42:32.411Z",
+        "faculty_id": "4eba2919-dbec-45cb-8492-b15da9097c04",
+        "term_id": "c4bf2aff-1165-4638-98f3-bf4622230a95"
+      },
+      {
+        "id": "750fa3f3-2359-4019-8a73-8f85c5b6414b",
+        "name": "Financial Accounting",
+        "description": "Understand the principles of financial accounting",
+        "start_date": "2023-09-09T10:10:01.834Z",
+        "end_date": "2023-09-10T00:16:27.179Z",
+        "created_at": "2023-09-09T10:42:02.027Z",
+        "updated_at": "2023-09-09T16:44:06.271Z",
+        "faculty_id": "db09f2a5-38cc-4067-8688-b51777c6e660",
+        "term_id": "c4bf2aff-1165-4638-98f3-bf4622230a95"
+      },
+      {
+        "id": "a74b41bc-6628-4d07-8bcc-0131f4585547",
+        "name": "Human Anatomy",
+        "description": "Explore the human body and its systems",
+        "start_date": "2023-09-09T13:50:38.603Z",
+        "end_date": "2023-09-10T00:39:54.041Z",
+        "created_at": "2023-09-09T21:58:33.099Z",
+        "updated_at": "2023-09-09T16:26:55.414Z",
+        "faculty_id": "52d6abb8-4b2d-4cf0-a161-90d79e0890b2",
+        "term_id": "21d3f6c6-ebbc-4e3e-89ea-74bc6512de3c"
+      },
+      {
+        "id": "63680f50-84ae-459b-816f-0ddf784e7d2e",
+        "name": "Mechanical Engineering",
+        "description": "Study the principles of mechanical engineering",
+        "start_date": "2023-09-09T19:18:11.636Z",
+        "end_date": "2023-09-09T12:43:03.957Z",
+        "created_at": "2023-09-09T14:39:31.828Z",
+        "updated_at": "2023-09-09T18:15:20.554Z",
+        "faculty_id": "52d6abb8-4b2d-4cf0-a161-90d79e0890b2",
+        "term_id": "ca256f6b-3757-43ff-aecf-d97d54bc1788"
+      },
+      {
+        "id": "415bea8d-867e-4b28-a905-9897591e586c",
+        "name": "Art History",
+        "description": "Discover the evolution of art through history",
+        "start_date": "2023-09-09T07:46:30.728Z",
+        "end_date": "2023-09-09T12:38:22.462Z",
+        "created_at": "2023-09-10T01:51:46.806Z",
+        "updated_at": "2023-09-09T09:41:38.940Z",
+        "faculty_id": "49401f6a-3b38-45dd-90b7-1b0917e7c939",
+        "term_id": "a9d01215-1ffb-446a-9864-581cee450b86"
+      }
+    ],
+    "student": [
+      {
+        "id": "585c1d38-6bbb-4bad-9f6f-7fe2c7faa75f",
+        "name": "John Doe",
+        "admission_date": "2023-09-09T15:07:18.041Z",
+        "created_at": "2023-09-09T06:47:24.878Z",
+        "updated_at": "2023-09-09T14:13:26.633Z",
+        "course_id": "415bea8d-867e-4b28-a905-9897591e586c",
+        "term_id": "c4bf2aff-1165-4638-98f3-bf4622230a95",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed4ce22a-0597-4ecc-b7f6-516a2f46be67",
+        "name": "Jane Smith",
+        "admission_date": "2023-09-09T17:35:36.717Z",
+        "created_at": "2023-09-09T11:40:09.449Z",
+        "updated_at": "2023-09-09T20:59:01.578Z",
+        "course_id": "dd02965e-8173-4a36-bc82-e7c464ce76ad",
+        "term_id": "21d3f6c6-ebbc-4e3e-89ea-74bc6512de3c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a9e4d2d0-9225-4b10-98dd-a80037aa0517",
+        "name": "Michael Brown",
+        "admission_date": "2023-09-09T06:02:00.708Z",
+        "created_at": "2023-09-09T12:21:06.646Z",
+        "updated_at": "2023-09-09T11:05:03.992Z",
+        "course_id": "415bea8d-867e-4b28-a905-9897591e586c",
+        "term_id": "21d3f6c6-ebbc-4e3e-89ea-74bc6512de3c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "282032f8-7528-42b8-b735-bd18328ad003",
+        "name": "Sarah Jones",
+        "admission_date": "2023-09-10T01:49:43.238Z",
+        "created_at": "2023-09-09T08:43:27.689Z",
+        "updated_at": "2023-09-09T09:44:17.553Z",
+        "course_id": "63680f50-84ae-459b-816f-0ddf784e7d2e",
+        "term_id": "21d3f6c6-ebbc-4e3e-89ea-74bc6512de3c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e17c8248-9364-4f8e-a118-d534aceb39ca",
+        "name": "Robert Wilson",
+        "admission_date": "2023-09-09T19:45:25.005Z",
+        "created_at": "2023-09-09T07:14:50.740Z",
+        "updated_at": "2023-09-10T05:01:34.058Z",
+        "course_id": "415bea8d-867e-4b28-a905-9897591e586c",
+        "term_id": "ca256f6b-3757-43ff-aecf-d97d54bc1788",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3cb6b2f6-2301-407f-91c0-fe0b0e9d0d20",
+        "email": "Okey.Lindgren36@hotmail.com",
+        "firstName": "Laury",
+        "lastName": "Howe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87376493",
+        "tenantId": null
+      },
+      {
+        "reference": "b15d4835-dac9-4701-93af-caab4ce2c95e",
+        "email": "Enoch_Schumm6@yahoo.com",
+        "firstName": "Grayson",
+        "lastName": "Powlowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84119191",
+        "tenantId": null
+      },
+      {
+        "reference": "aaa9d604-7805-471c-afd7-0bf1eac65753",
+        "email": "Lyric92@yahoo.com",
+        "firstName": "Aliza",
+        "lastName": "Cassin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/987.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f72e25b7-61e8-496f-8279-13ae9bc759cf",
+        "email": "Makayla_Prohaska@hotmail.com",
+        "firstName": "Lyla",
+        "lastName": "Gulgowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55438255",
+        "tenantId": null
+      },
+      {
+        "reference": "aac4279a-bad8-49de-aec1-1eeb31eb267b",
+        "email": "Karl_Crooks@yahoo.com",
+        "firstName": "Sonya",
+        "lastName": "Schultz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67770410",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "term": [
+      {
+        "id": "242191a3-9b41-4201-9db1-96e5c6fb0a52",
+        "name": "Fall 2021",
+        "start_date": "2023-09-09T20:13:10.071Z",
+        "end_date": "2023-09-09T11:58:56.232Z",
+        "is_active": false,
+        "created_at": "2023-09-09T11:59:17.910Z",
+        "updated_at": "2023-09-09T22:35:52.894Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "fcf24985-b91b-4c12-b5c0-e8440abae224",
+        "name": "Spring 2022",
+        "start_date": "2023-09-09T22:44:44.759Z",
+        "end_date": "2023-09-09T21:19:59.148Z",
+        "is_active": false,
+        "created_at": "2023-09-09T21:05:17.392Z",
+        "updated_at": "2023-09-09T08:50:03.830Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "2e7346c6-486a-4ec2-8c5c-e7c24ee72559",
+        "name": "Summer 2022",
+        "start_date": "2023-09-10T05:11:26.384Z",
+        "end_date": "2023-09-09T17:43:13.953Z",
+        "is_active": false,
+        "created_at": "2023-09-09T18:41:37.862Z",
+        "updated_at": "2023-09-09T08:08:18.544Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "787bd6c0-c9ff-4b45-bcda-e4928561e703",
+        "name": "Winter 2022",
+        "start_date": "2023-09-09T20:47:58.317Z",
+        "end_date": "2023-09-09T09:57:00.661Z",
+        "is_active": true,
+        "created_at": "2023-09-09T06:02:21.414Z",
+        "updated_at": "2023-09-09T08:07:19.363Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "b0e006ea-002d-4d39-97bd-f416e360f31c",
+        "name": "Autumn 2022",
+        "start_date": "2023-09-09T18:12:59.858Z",
+        "end_date": "2023-09-10T01:18:47.235Z",
+        "is_active": false,
+        "created_at": "2023-09-09T16:51:24.621Z",
+        "updated_at": "2023-09-09T17:41:50.871Z",
+        "university_id": "main_entity_pk"
+      }
+    ],
+    "faculty": [
+      {
+        "id": "89f1e7df-95a8-41d7-b866-b2b3c9175095",
+        "name": "John Smith",
+        "department": "Computer Science",
+        "designation": "Professor",
+        "created_at": "2023-09-09T16:29:39.587Z",
+        "updated_at": "2023-09-10T02:57:43.915Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "98d197f2-f40a-4987-b402-c3d2f164ab9b",
+        "name": "Emily Johnson",
+        "department": "Business Administration",
+        "designation": "Associate Professor",
+        "created_at": "2023-09-09T23:37:21.321Z",
+        "updated_at": "2023-09-09T14:48:33.445Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "da045627-3159-4d60-8365-a98d43f0dd1c",
+        "name": "Michael Brown",
+        "department": "Engineering",
+        "designation": "Assistant Professor",
+        "created_at": "2023-09-09T07:07:47.693Z",
+        "updated_at": "2023-09-10T05:34:18.893Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e2478727-14e3-4f3c-83c6-1a4d99fe45e7",
+        "name": "Sarah Wilson",
+        "department": "Psychology",
+        "designation": "Lecturer",
+        "created_at": "2023-09-09T22:25:52.116Z",
+        "updated_at": "2023-09-10T03:08:11.188Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4b32484a-c18f-45f4-989d-3cc6c15af007",
+        "name": "David Davis",
+        "department": "Biology",
+        "designation": "Researcher",
+        "created_at": "2023-09-09T13:33:26.364Z",
+        "updated_at": "2023-09-09T12:01:18.278Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "course": [
+      {
+        "id": "d304f594-f982-4c15-b1d5-f06701556bd5",
+        "name": "Introduction to Computer Science",
+        "description": "This course provides an introduction to the basic concepts of computer science.",
+        "start_date": "2023-09-10T02:27:49.503Z",
+        "end_date": "2023-09-09T14:36:16.756Z",
+        "created_at": "2023-09-09T06:24:38.637Z",
+        "updated_at": "2023-09-09T17:27:30.007Z",
+        "faculty_id": "e2478727-14e3-4f3c-83c6-1a4d99fe45e7",
+        "term_id": "242191a3-9b41-4201-9db1-96e5c6fb0a52"
+      },
+      {
+        "id": "7aa40703-b566-49da-b801-a3edbc71fe9e",
+        "name": "Marketing Strategies",
+        "description": "Learn effective marketing strategies and techniques for business success.",
+        "start_date": "2023-09-09T14:43:51.292Z",
+        "end_date": "2023-09-10T01:26:29.555Z",
+        "created_at": "2023-09-09T21:44:21.863Z",
+        "updated_at": "2023-09-09T14:49:37.341Z",
+        "faculty_id": "e2478727-14e3-4f3c-83c6-1a4d99fe45e7",
+        "term_id": "787bd6c0-c9ff-4b45-bcda-e4928561e703"
+      },
+      {
+        "id": "6254e074-33cb-4442-bb1d-ca22dbffe342",
+        "name": "Mechanical Engineering Fundamentals",
+        "description": "Explore the fundamental principles of mechanical engineering.",
+        "start_date": "2023-09-09T18:22:22.938Z",
+        "end_date": "2023-09-09T12:24:17.238Z",
+        "created_at": "2023-09-09T13:30:48.050Z",
+        "updated_at": "2023-09-09T18:39:52.873Z",
+        "faculty_id": "4b32484a-c18f-45f4-989d-3cc6c15af007",
+        "term_id": "242191a3-9b41-4201-9db1-96e5c6fb0a52"
+      },
+      {
+        "id": "897a2247-51fa-4f0d-a2cb-95194519b84d",
+        "name": "Introduction to Psychology",
+        "description": "Gain an understanding of the human mind and behavior.",
+        "start_date": "2023-09-10T05:34:16.838Z",
+        "end_date": "2023-09-09T16:07:10.396Z",
+        "created_at": "2023-09-09T06:49:20.059Z",
+        "updated_at": "2023-09-10T03:35:57.048Z",
+        "faculty_id": "4b32484a-c18f-45f4-989d-3cc6c15af007",
+        "term_id": "242191a3-9b41-4201-9db1-96e5c6fb0a52"
+      },
+      {
+        "id": "13b658a6-af59-4d5a-af9c-a51e2740c185",
+        "name": "Cell Biology",
+        "description": "Study the structure and function of cells in living organisms.",
+        "start_date": "2023-09-09T20:43:19.627Z",
+        "end_date": "2023-09-09T15:13:45.735Z",
+        "created_at": "2023-09-09T19:46:22.484Z",
+        "updated_at": "2023-09-09T18:27:24.967Z",
+        "faculty_id": "da045627-3159-4d60-8365-a98d43f0dd1c",
+        "term_id": "fcf24985-b91b-4c12-b5c0-e8440abae224"
+      }
+    ],
+    "student": [
+      {
+        "id": "b818e8a4-9448-47e2-a1bf-ca7425e6737d",
+        "name": "John Doe",
+        "admission_date": "2023-09-10T04:43:10.490Z",
+        "created_at": "2023-09-09T14:23:57.062Z",
+        "updated_at": "2023-09-10T00:14:06.916Z",
+        "course_id": "6254e074-33cb-4442-bb1d-ca22dbffe342",
+        "term_id": "b0e006ea-002d-4d39-97bd-f416e360f31c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1d548080-94c8-439b-a15b-898002c36860",
+        "name": "Jane Smith",
+        "admission_date": "2023-09-09T19:56:19.071Z",
+        "created_at": "2023-09-09T13:17:22.641Z",
+        "updated_at": "2023-09-10T00:42:12.755Z",
+        "course_id": "13b658a6-af59-4d5a-af9c-a51e2740c185",
+        "term_id": "b0e006ea-002d-4d39-97bd-f416e360f31c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "026e8638-2b65-424c-8440-ad4dbe1af0cb",
+        "name": "Michael Brown",
+        "admission_date": "2023-09-09T06:59:55.858Z",
+        "created_at": "2023-09-09T23:35:31.226Z",
+        "updated_at": "2023-09-09T21:59:29.723Z",
+        "course_id": "897a2247-51fa-4f0d-a2cb-95194519b84d",
+        "term_id": "242191a3-9b41-4201-9db1-96e5c6fb0a52",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9bbad0e1-2267-488b-994b-cdbf544d1959",
+        "name": "Sarah Johnson",
+        "admission_date": "2023-09-09T06:44:53.236Z",
+        "created_at": "2023-09-10T05:23:43.915Z",
+        "updated_at": "2023-09-09T19:33:35.985Z",
+        "course_id": "7aa40703-b566-49da-b801-a3edbc71fe9e",
+        "term_id": "b0e006ea-002d-4d39-97bd-f416e360f31c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e589963d-1622-4fcb-bf6e-896cf1e4a1da",
+        "name": "David Wilson",
+        "admission_date": "2023-09-10T05:14:40.689Z",
+        "created_at": "2023-09-09T20:16:17.054Z",
+        "updated_at": "2023-09-09T23:01:42.501Z",
+        "course_id": "897a2247-51fa-4f0d-a2cb-95194519b84d",
+        "term_id": "787bd6c0-c9ff-4b45-bcda-e4928561e703",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "fdb46b12-2095-455a-a324-42edc1324506",
+        "email": "Jedidiah94@gmail.com",
+        "firstName": "Darius",
+        "lastName": "Murray",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22577076",
+        "tenantId": null
+      },
+      {
+        "reference": "f6485473-982f-45f5-9a3b-ab729918634d",
+        "email": "Elton49@yahoo.com",
+        "firstName": "Nigel",
+        "lastName": "Kunde",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/284.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9ecbcf86-4f63-46da-8cc7-71c672c9eda2",
+        "email": "Linwood_Gulgowski@hotmail.com",
+        "firstName": "Kristian",
+        "lastName": "Grady",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10641753",
+        "tenantId": null
+      },
+      {
+        "reference": "89f5c269-ca6f-4985-94c6-2ab06118e9b2",
+        "email": "Alta0@hotmail.com",
+        "firstName": "Opal",
+        "lastName": "Brown",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92621357",
+        "tenantId": null
+      },
+      {
+        "reference": "25d60785-5b9b-4713-8434-29b9b8e88611",
+        "email": "Marianne_Rodriguez@hotmail.com",
+        "firstName": "Alfreda",
+        "lastName": "Keebler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98160934",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "term": [
+      {
+        "id": "d7f54aa2-3ff8-46f1-b0aa-b4321c12a941",
+        "name": "Fall 2022",
+        "start_date": "2023-09-09T23:41:41.216Z",
+        "end_date": "2023-09-09T22:19:37.817Z",
+        "is_active": false,
+        "created_at": "2023-09-10T00:24:21.509Z",
+        "updated_at": "2023-09-10T00:18:12.449Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "895347ff-1dd6-400e-ad99-7a423bb7dada",
+        "name": "Spring 2023",
+        "start_date": "2023-09-09T20:05:17.556Z",
+        "end_date": "2023-09-09T14:30:48.535Z",
+        "is_active": true,
+        "created_at": "2023-09-09T08:33:51.127Z",
+        "updated_at": "2023-09-09T12:32:51.491Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "d2fd3f57-9c1d-4482-9491-7ec5df5edeb4",
+        "name": "Summer 2023",
+        "start_date": "2023-09-10T04:58:06.049Z",
+        "end_date": "2023-09-09T12:26:26.546Z",
+        "is_active": false,
+        "created_at": "2023-09-09T17:49:36.206Z",
+        "updated_at": "2023-09-10T04:07:07.244Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "09844d7e-b18a-40e9-8693-117690d53cff",
+        "name": "Winter 2023",
+        "start_date": "2023-09-09T07:29:45.334Z",
+        "end_date": "2023-09-09T15:50:53.146Z",
+        "is_active": false,
+        "created_at": "2023-09-10T05:04:04.156Z",
+        "updated_at": "2023-09-10T05:03:46.549Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "1a2250a9-2112-46c4-8b74-498d479d6947",
+        "name": "Autumn 2023",
+        "start_date": "2023-09-09T06:25:50.158Z",
+        "end_date": "2023-09-09T19:10:56.026Z",
+        "is_active": false,
+        "created_at": "2023-09-09T16:34:23.164Z",
+        "updated_at": "2023-09-09T08:00:09.812Z",
+        "university_id": "main_entity_pk"
+      }
+    ],
+    "faculty": [
+      {
+        "id": "f46089e7-9004-468b-8f5a-028437784e86",
+        "name": "Faculty of Arts",
+        "department": "Department of History",
+        "designation": "Professor",
+        "created_at": "2023-09-09T13:31:38.548Z",
+        "updated_at": "2023-09-09T15:10:49.579Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e1a88a35-3a82-4e13-a6c0-180ce8d53280",
+        "name": "Faculty of Science",
+        "department": "Department of Biology",
+        "designation": "Associate Professor",
+        "created_at": "2023-09-09T12:48:44.309Z",
+        "updated_at": "2023-09-09T21:07:59.120Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a822145-7ff7-4e82-ab8b-a508ceb985f4",
+        "name": "Faculty of Business",
+        "department": "Department of Finance",
+        "designation": "Assistant Professor",
+        "created_at": "2023-09-09T18:01:59.868Z",
+        "updated_at": "2023-09-09T16:21:26.202Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b0fb17ba-6a4a-45a6-bb59-ee52d2ffa956",
+        "name": "Faculty of Engineering",
+        "department": "Department of Computer Science",
+        "designation": "Lecturer",
+        "created_at": "2023-09-10T03:00:12.197Z",
+        "updated_at": "2023-09-09T21:26:11.135Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5e55978c-88c9-4d1c-bc58-52bfa9099de8",
+        "name": "Faculty of Medicine",
+        "department": "Department of Medicine",
+        "designation": "Researcher",
+        "created_at": "2023-09-09T23:03:42.268Z",
+        "updated_at": "2023-09-10T01:27:45.675Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "course": [
+      {
+        "id": "a71ae792-755c-4bbe-91a8-9b4d657c60bf",
+        "name": "Introduction to Psychology",
+        "description": "Explore the fascinating world of psychology",
+        "start_date": "2023-09-09T06:50:40.131Z",
+        "end_date": "2023-09-09T20:00:39.806Z",
+        "created_at": "2023-09-09T09:22:05.439Z",
+        "updated_at": "2023-09-09T15:05:17.030Z",
+        "faculty_id": "f46089e7-9004-468b-8f5a-028437784e86",
+        "term_id": "d2fd3f57-9c1d-4482-9491-7ec5df5edeb4"
+      },
+      {
+        "id": "3a57e1f5-3181-406d-8586-79009b6ec007",
+        "name": "Computer Programming 101",
+        "description": "Learn the basics of programming with Python",
+        "start_date": "2023-09-10T02:44:15.042Z",
+        "end_date": "2023-09-09T18:48:43.276Z",
+        "created_at": "2023-09-09T09:07:32.297Z",
+        "updated_at": "2023-09-10T04:08:50.479Z",
+        "faculty_id": "e1a88a35-3a82-4e13-a6c0-180ce8d53280",
+        "term_id": "d2fd3f57-9c1d-4482-9491-7ec5df5edeb4"
+      },
+      {
+        "id": "ccc75a88-c8f9-433a-b2cc-fb9c6dd58d0c",
+        "name": "Financial Management",
+        "description": "Master the principles of financial management",
+        "start_date": "2023-09-09T18:12:45.396Z",
+        "end_date": "2023-09-09T17:04:31.228Z",
+        "created_at": "2023-09-09T15:09:34.109Z",
+        "updated_at": "2023-09-09T20:39:53.042Z",
+        "faculty_id": "5e55978c-88c9-4d1c-bc58-52bfa9099de8",
+        "term_id": "d7f54aa2-3ff8-46f1-b0aa-b4321c12a941"
+      },
+      {
+        "id": "2ebf99c1-be13-4cbc-b8a4-906b294e3102",
+        "name": "Artificial Intelligence",
+        "description": "Discover the latest advancements in AI",
+        "start_date": "2023-09-09T12:20:15.083Z",
+        "end_date": "2023-09-09T06:58:56.002Z",
+        "created_at": "2023-09-09T06:57:55.953Z",
+        "updated_at": "2023-09-09T17:24:03.498Z",
+        "faculty_id": "1a822145-7ff7-4e82-ab8b-a508ceb985f4",
+        "term_id": "1a2250a9-2112-46c4-8b74-498d479d6947"
+      },
+      {
+        "id": "6431cdc7-8341-46b7-a8b7-3c7f64244550",
+        "name": "Human Anatomy",
+        "description": "Study the structure and function of the human body",
+        "start_date": "2023-09-10T04:24:47.953Z",
+        "end_date": "2023-09-09T10:27:51.459Z",
+        "created_at": "2023-09-09T12:41:10.771Z",
+        "updated_at": "2023-09-09T14:11:42.226Z",
+        "faculty_id": "f46089e7-9004-468b-8f5a-028437784e86",
+        "term_id": "d7f54aa2-3ff8-46f1-b0aa-b4321c12a941"
+      }
+    ],
+    "student": [
+      {
+        "id": "5650056e-c4f3-46f8-90ed-1d7f85ead433",
+        "name": "John Doe",
+        "admission_date": "2023-09-09T16:26:42.732Z",
+        "created_at": "2023-09-09T16:51:27.366Z",
+        "updated_at": "2023-09-10T05:07:15.659Z",
+        "course_id": "ccc75a88-c8f9-433a-b2cc-fb9c6dd58d0c",
+        "term_id": "09844d7e-b18a-40e9-8693-117690d53cff",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "75e559cd-ca4c-4dd1-bb2a-d80ba12b2d55",
+        "name": "Jane Smith",
+        "admission_date": "2023-09-09T08:31:53.479Z",
+        "created_at": "2023-09-09T14:25:38.622Z",
+        "updated_at": "2023-09-09T19:05:17.694Z",
+        "course_id": "6431cdc7-8341-46b7-a8b7-3c7f64244550",
+        "term_id": "09844d7e-b18a-40e9-8693-117690d53cff",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "53338987-bbde-45fa-a6fe-62263a9f41f1",
+        "name": "Michael Johnson",
+        "admission_date": "2023-09-09T07:44:32.092Z",
+        "created_at": "2023-09-09T17:42:53.652Z",
+        "updated_at": "2023-09-09T16:24:58.657Z",
+        "course_id": "6431cdc7-8341-46b7-a8b7-3c7f64244550",
+        "term_id": "d7f54aa2-3ff8-46f1-b0aa-b4321c12a941",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04efa676-3c4d-420b-926b-27648dbda3c5",
+        "name": "Sarah Wilson",
+        "admission_date": "2023-09-09T10:25:17.110Z",
+        "created_at": "2023-09-09T09:02:07.717Z",
+        "updated_at": "2023-09-09T11:10:37.432Z",
+        "course_id": "3a57e1f5-3181-406d-8586-79009b6ec007",
+        "term_id": "895347ff-1dd6-400e-ad99-7a423bb7dada",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "362cf508-db0c-43ea-90fb-c6758735053b",
+        "name": "Robert Brown",
+        "admission_date": "2023-09-09T21:11:02.714Z",
+        "created_at": "2023-09-09T12:53:26.017Z",
+        "updated_at": "2023-09-09T23:16:09.017Z",
+        "course_id": "3a57e1f5-3181-406d-8586-79009b6ec007",
+        "term_id": "d7f54aa2-3ff8-46f1-b0aa-b4321c12a941",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d449bcea-1f86-4eb7-b623-ad81bbbee06f",
+        "email": "Gretchen.Fahey3@hotmail.com",
+        "firstName": "Keshawn",
+        "lastName": "Senger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/188.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ec5d74c8-0b19-43d3-9862-c234efd7000e",
+        "email": "Arno23@gmail.com",
+        "firstName": "Adriel",
+        "lastName": "Rutherford",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/680.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6fead8c1-6eb0-46d2-adef-b955161cbfb5",
+        "email": "Hannah_Marks78@hotmail.com",
+        "firstName": "Jaunita",
+        "lastName": "Hilll",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/940.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "12d4467b-46f2-4846-a47b-99c41ed57dba",
+        "email": "Abbigail.Bode@gmail.com",
+        "firstName": "Jace",
+        "lastName": "Fay",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22938618",
+        "tenantId": null
+      },
+      {
+        "reference": "b404e68f-a0e7-4b42-9add-d7f05da9615e",
+        "email": "Arlo49@yahoo.com",
+        "firstName": "Ubaldo",
+        "lastName": "Monahan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36406587",
+        "tenantId": null
+      }
+    ]
+  }
+]
